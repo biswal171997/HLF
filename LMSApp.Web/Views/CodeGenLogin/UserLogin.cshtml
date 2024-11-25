@@ -1,0 +1,174 @@
+@{
+    ViewData["Title"] = "UserLogin";
+    Layout = "~/Views/LoginLayout/_Layout1.cshtml";
+    //Layout = null;
+}
+
+<head>
+    <style>
+        input[type="password"]::placeholder {
+            /* Firefox, Chrome, Opera */
+            text-align: center;
+        }
+
+        input[type="text"]::placeholder {
+            /* Firefox, Chrome, Opera */
+            text-align: center;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="row">
+            @Html.AntiForgeryToken()
+            <form id="form">
+
+                <section class="vh-100" style="background-image: url('../Images/bgimage1.jpg');">
+                    <div class="container py-5 h-100">
+                        <div class="row d-flex justify-content-center align-items-center h-100">
+                            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                                <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                                    <div class="card-body p-5 text-center">
+
+                                        <h3 class="fw-bold mb-2 text-uppercase">Sign in</h3>
+
+                                        <div class="form-outline mb-4">
+
+                                            <label class="floating-label" for="typeEmailX-2"><span>@*UserName <span style="color:red">**@</span></label>
+                                            <input type="text" id="UserName" name="UserName" placeholder="Enter Your UserName" class="form-control form-control-lg" />
+
+                                        </div>
+
+                                        <div class="form-outline mb-4">
+                                            <label class="form-label" for="typePasswordX-2">@*Password<span style="color:red">*</span>*@</label>
+                                            <input type="password" id="Password" name="Password" placeholder="Enter Your Password" class="form-control form-control-lg" />
+
+                                        </div>
+
+                                        <input type="button" value="Submit" id="btn_Submit" class="btn btn-primary" onclick="Sava_login()" />
+
+                                        <div class="w-full text-center p-t-55">
+                                            <span class="psw"> <a href="/CodeGenLogin/Forgetpass"> Forgot password?</a></span>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+            </form>
+
+            @*Write code here*@
+        </div>
+    </div>
+</body>
+
+@section scripts {
+
+    <script>
+        $("#form").validate({
+            rules: {
+                UserName: {
+                    required: true
+                },
+                Password: {
+                    required: true
+                },
+            },
+            messages: {
+                UserName: {
+                    required: "Please enter UserName"
+                },
+                Password: {
+                    required: "Please enter Password"
+                },
+            },
+
+            highlight: function (element) {
+                $(element).removeClass("is-valid")
+                $(element).parent().addClass('error')
+                $(element).addClass("is-invalid")
+            },
+            unhighlight: function (element) {
+                $(element).parent().removeClass('error')
+                $(element).removeClass("is-invalid");
+                $(element).addClass("is-valid")
+            }
+
+        });
+        function Sava_login() {
+            if ($("#form").valid()) {
+                SubmitsEncry('UserName');
+                SubmitsEncry('Password');
+                var TBL_UserMaster = {
+                    //UserName: $("#UserName").val(),
+                    //Password: $("#Password").val(),
+
+
+                    UserName: $("#UserName").val(),
+                    Password: $("#Password").val(),
+                };
+                $.ajax({
+                    type: "POST",
+                    url: "/CodeGenLogin/UserLogin",
+                    beforeSend: function (xhr) {
+                        xhr.setRequestHeader("XSRF-TOKEN",
+                            $('input:hidden[name="__RequestVerificationToken"]').val());
+                    },
+                    data: TBL_UserMaster,
+                    content: 'application/json;charset=utf-8',
+                    dataType: "json",
+                    success: function (result) {
+                        if (result.responseText == "Success") {
+                            Swal.fire({
+                                icon: 'success',
+                                title: result.responseText,
+                                text: result.responseMessage,
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    location.href = "/Home/Index";
+                                }
+                            })
+                        }
+                        else {
+                            Swal.fire({
+                                icon: 'error',
+                                title: result.responseText,
+                                text: result.responseMessage,
+                            });
+                        }
+                    },
+                    error: function (result) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: result.responseText,
+                            text: result.responseMessage,
+                        });
+                    },
+                });
+            }
+        }
+    </script>
+    <script>
+
+        function SubmitsEncry(strCntrol) {
+            //alert(strCntrol);
+            var strData = $('#' + strCntrol).val();
+            var key = CryptoJS.enc.Utf8.parse('8080808080808080');
+            var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
+            var encryptedlogin = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(strData), key,
+                {
+                    keySize: 128 / 8,
+                    iv: iv,
+                    mode: CryptoJS.mode.CBC,
+                    padding: CryptoJS.pad.Pkcs7
+                });
+            $('#' + strCntrol).val(encryptedlogin);
+        }
+    </script>
+}

@@ -1,0 +1,60 @@
+D:\project Test\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Model.deps.json
+D:\project Test\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Model.dll
+D:\project Test\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Model.pdb
+D:\project Test\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Core.dll
+D:\project Test\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Core.pdb
+D:\project Test\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.csproj.AssemblyReference.cache
+D:\project Test\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\project Test\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.AssemblyInfoInputs.cache
+D:\project Test\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.AssemblyInfo.cs
+D:\project Test\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.csproj.CoreCompileInputs.cache
+D:\project Test\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.M.A5D9599B.Up2Date
+D:\project Test\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.dll
+D:\project Test\NewApp2\LMSApp.Model\obj\Debug\net8.0\refint\LMSApp.Model.dll
+D:\project Test\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.pdb
+D:\project Test\NewApp2\LMSApp.Model\obj\Debug\net8.0\ref\LMSApp.Model.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Model.deps.json
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Model.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Model.pdb
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Core.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Core.pdb
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.csproj.AssemblyReference.cache
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.AssemblyInfoInputs.cache
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.AssemblyInfo.cs
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.csproj.CoreCompileInputs.cache
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.M.A5D9599B.Up2Date
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\refint\LMSApp.Model.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.pdb
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\ref\LMSApp.Model.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Model.deps.json
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Model.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Model.pdb
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Core.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Core.pdb
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.csproj.AssemblyReference.cache
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.AssemblyInfoInputs.cache
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.AssemblyInfo.cs
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.csproj.CoreCompileInputs.cache
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.M.A5D9599B.Up2Date
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\obj\Debug\net8.0\refint\LMSApp.Model.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.pdb
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Model\obj\Debug\net8.0\ref\LMSApp.Model.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Model.deps.json
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Model.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Model.pdb
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Core.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\bin\Debug\net8.0\LMSApp.Core.pdb
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.csproj.AssemblyReference.cache
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.AssemblyInfoInputs.cache
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.AssemblyInfo.cs
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.csproj.CoreCompileInputs.cache
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.M.A5D9599B.Up2Date
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\refint\LMSApp.Model.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\LMSApp.Model.pdb
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Model\obj\Debug\net8.0\ref\LMSApp.Model.dll

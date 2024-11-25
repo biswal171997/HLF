@@ -1,0 +1,190 @@
+﻿@{
+    ViewBag.Title = "Disbrusment";
+    Layout = "~/Views/Shared/_LayoutLMS.cshtml";
+}
+
+<style>
+
+    .ttt {
+        height: 38px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        border: 1px solid #e8ebed;
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 6px;
+    }
+</style>
+<div class="page-header">
+    <div class="d-flex justify-content-between align-items-center">
+        <!-- Page Title -->
+        <div class="page-title">
+            <h4>Disbrusment</h4>
+            <h6>Manage Disbrusment !</h6>
+        </div>
+
+        <!-- Action Buttons and Icons -->
+        <div class="d-flex align-items-center">
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Pdf">
+                        <img src="assets/img/icons/pdf.svg" alt="Pdf">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Excel">
+                        <img src="assets/img/icons/excel.svg" alt="Excel">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Print">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-printer feather-rotate-ccw">
+                            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                            <rect x="6" y="14" width="12" height="8"></rect>
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Refresh">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-ccw">
+                            <polyline points="1 4 1 10 7 10"></polyline>
+                            <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                        </svg>
+                    </a>
+                </li>
+                @*   <li class="list-inline-item">
+                        <a href="#" class="ttt"  data-bs-toggle="tooltip" data-bs-placement="top" title="Collapse" id="collapse-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up">
+                                <polyline points="18 15 12 9 6 15"></polyline>
+                            </svg>
+                        </a>
+                    </li> *@
+            </ul>
+
+            <!-- Add New Brand Button -->
+            <a href="#" class="btn btn-primary ms-3" data-bs-toggle="modal" data-bs-target="#add-brand">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle me-2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="16"></line>
+                    <line x1="8" y1="12" x2="16" y2="12"></line>
+                </svg>
+                Add New Brand
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row mb-3"></div>
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+
+                <div class="table-responsive">
+                    <div id="dataTableExample_wrapper" class="dt-container dt-bootstrap5 dt-empty-footer">
+                        <div class="row mt-2 justify-content-between"><div class="col-md-auto me-auto "><div class="dt-length"><select name="dataTableExample_length" aria-controls="dataTableExample" class="form-select form-select-sm" id="dt-length-0"><option value="5">5</option><option value="10">10</option><option value="30">30</option><option value="50">50</option><option value="-1">All</option></select><label for="dt-length-0"> entries per page</label></div></div><div class="col-md-auto ms-auto "><div class="dt-search"><input type="search" class="form-control form-control-sm" id="dt-search-0" placeholder="Search here" aria-controls="dataTableExample"><label for="dt-search-0"></label></div></div></div><div class="row mt-2 justify-content-md-center">
+                            <div class="col-12 ">
+                                <table id="dataTableExample" class="table dataTable" aria-describedby="dataTableExample_info" style="width: 1009px;">
+                                    <colgroup><col data-dt-column="0" style="width: 195.219px;"><col data-dt-column="1" style="width: 281.391px;"><col data-dt-column="2" style="width: 158.281px;"><col data-dt-column="3" style="width: 93.5156px;"><col data-dt-column="4" style="width: 157.453px;"><col data-dt-column="5" style="width: 123.141px;"></colgroup>
+                                    <thead>
+                                        <tr role="row"><th data-dt-column="0" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc dt-ordering-asc" aria-sort="ascending" aria-label="Name: Activate to invert sorting" tabindex="0"><span class="dt-column-title" role="button">Name</span><span class="dt-column-order"></span></th><th data-dt-column="1" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Position: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Position</span><span class="dt-column-order"></span></th><th data-dt-column="2" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Office: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Office</span><span class="dt-column-order"></span></th><th data-dt-column="3" rowspan="1" colspan="1" class="dt-type-numeric dt-orderable-asc dt-orderable-desc" aria-label="Age: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Age</span><span class="dt-column-order"></span></th><th data-dt-column="4" rowspan="1" colspan="1" class="dt-type-date dt-orderable-asc dt-orderable-desc" aria-label="Start date: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Start date</span><span class="dt-column-order"></span></th><th data-dt-column="5" rowspan="1" colspan="1" class="dt-type-numeric dt-orderable-asc dt-orderable-desc" aria-label="Salary: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Salary</span><span class="dt-column-order"></span></th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="sorting_1">Airi Satou</td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td class="dt-type-numeric">33</td>
+                                            <td class="dt-type-date">2008/11/28</td>
+                                            <td class="dt-type-numeric">$162,700</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="sorting_1">Ashton Cox</td>
+                                            <td>Junior Technical Author</td>
+                                            <td>San Francisco</td>
+                                            <td class="dt-type-numeric">66</td>
+                                            <td class="dt-type-date">2009/01/12</td>
+                                            <td class="dt-type-numeric">$86,000</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="sorting_1">Bradley Greer</td>
+                                            <td>Software Engineer</td>
+                                            <td>London</td>
+                                            <td class="dt-type-numeric">41</td>
+                                            <td class="dt-type-date">2012/10/13</td>
+                                            <td class="dt-type-numeric">$132,000</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="sorting_1">Brielle Williamson</td>
+                                            <td>Integration Specialist</td>
+                                            <td>New York</td>
+                                            <td class="dt-type-numeric">61</td>
+                                            <td class="dt-type-date">2012/12/02</td>
+                                            <td class="dt-type-numeric">$372,000</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="sorting_1">Cedric Kelly</td>
+                                            <td>Senior Javascript Developer</td>
+                                            <td>Edinburgh</td>
+                                            <td class="dt-type-numeric">22</td>
+                                            <td class="dt-type-date">2012/03/29</td>
+                                            <td class="dt-type-numeric">$433,060</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="sorting_1">Charde Marshall</td>
+                                            <td>Regional Director</td>
+                                            <td>San Francisco</td>
+                                            <td class="dt-type-numeric">36</td>
+                                            <td class="dt-type-date">2008/10/16</td>
+                                            <td class="dt-type-numeric">$470,600</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="sorting_1">Colleen Hurst</td>
+                                            <td>Javascript Developer</td>
+                                            <td>San Francisco</td>
+                                            <td class="dt-type-numeric">39</td>
+                                            <td class="dt-type-date">2009/09/15</td>
+                                            <td class="dt-type-numeric">$205,500</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="sorting_1">Dai Rios</td>
+                                            <td>Personnel Lead</td>
+                                            <td>Edinburgh</td>
+                                            <td class="dt-type-numeric">35</td>
+                                            <td class="dt-type-date">2012/09/26</td>
+                                            <td class="dt-type-numeric">$217,500</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="sorting_1">Garrett Winters</td>
+                                            <td>Accountant</td>
+                                            <td>Tokyo</td>
+                                            <td class="dt-type-numeric">63</td>
+                                            <td class="dt-type-date">2011/07/25</td>
+                                            <td class="dt-type-numeric">$170,750</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="sorting_1">Gloria Little</td>
+                                            <td>Systems Administrator</td>
+                                            <td>New York</td>
+                                            <td class="dt-type-numeric">59</td>
+                                            <td class="dt-type-date">2009/04/10</td>
+                                            <td class="dt-type-numeric">$237,500</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot></tfoot>
+                                </table>
+                            </div>
+                        </div><div class="row mt-2 justify-content-between"><div class="col-md-auto me-auto "><div class="dt-info" aria-live="polite" id="dataTableExample_info" role="status">Showing 1 to 10 of 22 entries</div></div><div class="col-md-auto ms-auto "><div class="dt-paging paging_simple_numbers"><ul class="pagination"><li class="dt-paging-button page-item disabled"><a class="page-link previous" aria-controls="dataTableExample" aria-disabled="true" aria-label="Previous" data-dt-idx="previous" tabindex="-1">‹</a></li><li class="dt-paging-button page-item active"><a href="#" class="page-link" aria-controls="dataTableExample" aria-current="page" data-dt-idx="0" tabindex="0">1</a></li><li class="dt-paging-button page-item"><a href="#" class="page-link" aria-controls="dataTableExample" data-dt-idx="1" tabindex="0">2</a></li><li class="dt-paging-button page-item"><a href="#" class="page-link" aria-controls="dataTableExample" data-dt-idx="2" tabindex="0">3</a></li><li class="dt-paging-button page-item"><a href="#" class="page-link next" aria-controls="dataTableExample" aria-label="Next" data-dt-idx="next" tabindex="0">›</a></li></ul></div></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

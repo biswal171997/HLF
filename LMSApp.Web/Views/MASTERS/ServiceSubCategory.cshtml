@@ -1,0 +1,276 @@
+﻿@model LMSApp.Model.Entities.MASTERS.ServiceCategory
+@{
+    ViewBag.Title = "Service Category";
+    Layout = "~/Views/Shared/_LayoutLMS.cshtml";
+    var DataCategory = ViewBag.Result as List<LMSApp.Model.Entities.MASTERS.ServiceCategory>;
+}
+<div class="page-header">
+    <div class="d-flex justify-content-between align-items-center">
+        <!-- Page Title -->
+        <div class="page-title">
+            <h4>Service Sub Category</h4>
+            <h6>Manage Your Service Sub Category !</h6>
+        </div>
+
+        <!-- Action Buttons and Icons -->
+        <div class="d-flex align-items-center">
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Pdf">
+                        <img src="/lmsData/assets/img/icons/pdf.svg" alt="Pdf">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Excel">
+                        <img src="/lmsData/assets/img/icons/excel.svg" alt="Excel">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Print">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-printer feather-rotate-ccw">
+                            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                            <rect x="6" y="14" width="12" height="8"></rect>
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Refresh">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-ccw">
+                            <polyline points="1 4 1 10 7 10"></polyline>
+                            <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                        </svg>
+                    </a>
+                </li>
+                @*   <li class="list-inline-item">
+                <a href="#" class="ttt"  data-bs-toggle="tooltip" data-bs-placement="top" title="Collapse" id="collapse-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up">
+                <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+                </a>
+                </li> *@
+            </ul>
+
+            <!-- Add New Brand Button -->
+            <a href="#" class="btn btn-primary ms-3" data-bs-toggle="modal" data-bs-target="#serviceSubCategoryModal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle me-2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="16"></line>
+                    <line x1="8" y1="12" x2="16" y2="12"></line>
+                </svg>
+                Add Service Sub Category
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row mb-3"></div>
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+
+                <div class="table-responsive">
+                    <div id="dataTableExample_wrapper" class="dt-container dt-bootstrap5 dt-empty-footer">
+
+
+                        <table id="tblSubcategory" class="table dataTable" aria-describedby="dataTableExample_info">
+
+                            <thead>
+                                <tr role="row">
+                                    <th data-dt-column="0" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc dt-ordering-asc" aria-sort="ascending" aria-label="Name: Activate to invert sorting" tabindex="0"><span class="dt-column-title" role="button">Sl No</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="1" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Position: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Category Name</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="2" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Office: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">SubCategory Name</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="10" rowspan="1" colspan="1" class="dt-type-numeric dt-orderable-asc dt-orderable-desc" aria-label="Age: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Action</span><span class="dt-column-order"></span></th>
+
+                                </tr>
+                            </thead>
+                            <tbody id="idbodySubCategory">
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+<div class="modal fade" id="serviceSubCategoryModal" tabindex="-1" aria-labelledby="serviceProviderModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h5 class="modal-title" id="serviceProviderModalLabel">Add Service Category</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <form>
+                    <!-- Service Provider Name -->
+                    <div class="mb-3">
+                        <label for="serviceProviderName" class="form-label">Service Category Name</label>
+                        <select class="form-control" id="ddlCategoryName" asp-items="@(new SelectList(ViewBag.Result,"CategoryID","CategoryName"))" asp-for="CategoryID">
+                            <option value="0" selected>--Select Category--</option>
+                        </select>
+
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="serviceProviderName" class="form-label">Service Sub Category Name</label>
+                        <input type="text" class="form-control" id="txtSubCategoryName" placeholder="Enter service category name">
+                    </div>
+
+
+                </form>
+            </div>
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button id="btnSubmit" type="button" class="btn btn-primary">Save Service Sub Category</button>
+                <input type="hidden" id="hdnSubCatId" value="0" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/lmsData/jquery/jquery.min.js"></script>
+
+<script>
+
+    $(document).ready(function () {
+        Get_ServiceSubCategory();
+    });
+
+    $("#btnSubmit").click(function () {
+        debugger;
+        // Get the CategoryName value from the input field
+        var categoryName = $("#ddlCategoryName").val();
+        var subcat = $("#txtSubCategoryName").val().trim();
+        var subcatid = $("#hdnSubCatId").val();
+        // Validate that the CategoryName is not empty
+        // if (categoryName.val() == 0) {
+        //     alert("Category name is required.");
+        //     return;
+        // }
+        // if (subcat == '') {
+
+        //     alert("Please enter Subcategory name")
+        //     return;
+        // }
+        var dataToSend = {
+            SubCategoryID: subcatid,
+            CategoryID: categoryName,
+            SubCategoryName: subcat
+        };
+
+
+        $.ajax({
+            url: '/MASTERS/SaveServiceSubCategory',  // This is the URL to the controller action
+            type: 'POST',
+            contentType: 'application/json',   // Send the data as JSON
+            data: JSON.stringify(dataToSend),   // Convert the object to JSON
+            success: function (response) {
+                // Handle the response from the server
+                if (response.success) {
+                    alert(response.message);  // Success message from the server
+                    $("#txtSubCategoryName").val("");  // Optionally clear the input field
+                    $("#ddlCategoryName").val(0);
+                    $("#hdnSubCatId").val(0);
+                    Get_ServiceSubCategory();
+                } else {
+                    alert(response.message || "Failed to save Subcategory.");
+                }
+            },
+            error: function (xhr, status, error) {
+                // Handle any errors that occur during the request
+                alert("An error occurred: " + error);
+            }
+        });
+    });
+
+    function Get_ServiceSubCategory() {
+        debugger;
+        $.ajax({
+            type: 'Get',
+            dataType: 'Json',
+            contentType: 'application/json; charset=utf-8',
+            data: {},
+            url: "@Url.Action("Get_ServiceSubCategory", "MASTERS")",
+            success: function (result) {
+                var data1 = JSON.parse(result);
+                if (data1.length > 0) {
+                    $('#idbodySubCategory').empty();  // Clear the table body
+                    $.each(data1, function (i, data) {
+                        var trows = "<tr>";
+                        trows += "<td>" + (i + 1) + "</td>";
+                        trows = trows + "<td>" + data.CategoryName + "</td>";
+                        trows = trows + "<td>" + data.SubCategoryName + "</td>";
+
+                        trows = trows + "<td><button class='btn btn-primary' data-bs-toggle='modal' data-bs-target='#serviceSubCategoryModal'  onclick='Edit(" + data.SubCategoryID + ")'>Edit</button> <button class='btn btn-danger' onclick='deleteServiceSubCategory(" + data.SubCategoryID + ")'>Delete</button></td>";
+                        trows = trows + "</tr>";
+
+                        $('#idbodySubCategory').append(trows);
+
+                    });
+                    $('#tblSubcategory').DataTable();
+                }
+            },
+            error: function (Message) {
+                alert(Message);
+            }
+        });
+    }
+
+    function Edit(Id) {
+        //alert(LeadId);
+        $("#hdnSubCatId").val(Id);
+        $.ajax({
+            url: "/MASTERS/Get_ServiceSubCategoryById?SubcatId=" + Id,
+            type: "GET", // Fixed typo: `typr` to `type`
+            contentType: "application/json;charset=UTF-8",
+            dataType: "json",
+            success: function (result) {
+                //alert(result.ServiceProviderID);ddlCategoryName txtSubCategoryName
+                $("#ddlCategoryName").val(result.CategoryID);
+                $("#txtSubCategoryName").val(result.SubCategoryName);
+            },
+            error: function (errormessage) {
+                alert(errormessage.responseText);
+            }
+        });
+    }
+
+
+    //Delete ServiceSubCategory
+    function deleteServiceSubCategory(Id) {
+        debugger;
+        if (confirm("Are you sure you want to delete ?")) {
+            $.ajax({
+                url: "/MASTERS/Delete_ServiceSubCategoryById?Id=" + Id,
+                type: "Delete",
+                dataType: "json",
+                contentType: "application/json;charset=UTF-8",
+                success: function (data) {
+                    if (data.success) {
+                        Get_ServiceSubCategory();
+                        alert(data.message);
+                        
+                    } else {
+                        alert(data.message || "Failed to Delete SubCategory.");
+                    }
+                },
+                error: function (error) {
+                    //jsonValue = jQuery.parseJSON(error.responseText);
+                    //bootbox.alert("Error : " + jsonValue);
+                }
+            });
+        }
+    }
+</script>

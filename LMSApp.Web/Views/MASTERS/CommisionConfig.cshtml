@@ -1,0 +1,366 @@
+﻿@* @model LMSApp.Model.ServiceProviderMaster.ServiceProviderMaster *@
+@model LMSApp.Model.Entities.MASTERS.ProviderCategory
+@{
+    ViewBag.Title = "Commision Config";
+    Layout = "~/Views/Shared/_LayoutLMS.cshtml";
+    //var DataConfig = ViewBag.Result as List<LMSApp.Model.Entities.MASTERS.ProviderCategory>;
+}
+
+<style>
+
+    .ttt {
+        height: 38px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        border: 1px solid #e8ebed;
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 6px;
+    }
+</style>
+<div class="page-header">
+    <div class="d-flex justify-content-between align-items-center">
+        <!-- Page Title -->
+        <div class="page-title">
+            <h4>Commision Config</h4>
+            <h6>Manage your Commision Config !</h6>
+        </div>
+
+        <!-- Action Buttons and Icons -->
+        <div class="d-flex align-items-center">
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Pdf">
+                        <img src="/lmsData/assets/img/icons/pdf.svg" alt="Pdf">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Excel">
+                        <img src="/lmsData/assets/img/icons/excel.svg" alt="Excel">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Print">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-printer feather-rotate-ccw">
+                            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                            <rect x="6" y="14" width="12" height="8"></rect>
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Refresh">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-ccw">
+                            <polyline points="1 4 1 10 7 10"></polyline>
+                            <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                        </svg>
+                    </a>
+                </li>
+                @*   <li class="list-inline-item">
+                    <a href="#" class="ttt"  data-bs-toggle="tooltip" data-bs-placement="top" title="Collapse" id="collapse-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                    </svg>
+                    </a>
+                    </li> *@
+            </ul>
+
+            <!-- Add New Brand Button -->
+            <a href="#" class="btn btn-primary ms-3" data-bs-toggle="modal" data-bs-target="#serviceProviderModal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle me-2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="16"></line>
+                    <line x1="8" y1="12" x2="16" y2="12"></line>
+                </svg>
+                Add New Commision Config
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row mb-3"></div>
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+
+                <div class="table-responsive">
+                    <div id="dataTableExample_wrapper" class="dt-container dt-bootstrap5 dt-empty-footer">
+                        <table id="tblCommisionConfig" class="table dataTable" aria-describedby="dataTableExample_info" style="width: 1009px;">
+                            <thead>
+                                <tr role="row">
+                                    <th data-dt-column="0" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc dt-ordering-asc" aria-sort="ascending" aria-label="Name: Activate to invert sorting" tabindex="0"><span class="dt-column-title" role="button">Sl No</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="1" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Position: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Service Provider</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="2" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Office: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Service Category</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="3" rowspan="1" colspan="1" class="dt-type-numeric dt-orderable-asc dt-orderable-desc" aria-label="Age: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Service SubCategory</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="4" rowspan="1" colspan="1" class="dt-type-date dt-orderable-asc dt-orderable-desc" aria-label="Start date: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Commision Type</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="5" rowspan="1" colspan="1" class="dt-type-numeric dt-orderable-asc dt-orderable-desc" aria-label="Salary: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Commision</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="6" rowspan="1" colspan="1" class="dt-type-numeric dt-orderable-asc dt-orderable-desc" aria-label="Salary: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Action</span><span class="dt-column-order"></span></th>
+                                </tr>
+                            </thead>
+                            <tbody id="idbodyCommisionConfig">
+                                @*<tr>
+                                    <td class="sorting_1">1</td>
+                                    <td>Loan</td>
+                                    <td>Persional Loan</td>
+                                    <td>Axis Bank</td>
+                                    <td>Percent</td>
+                                    <td class="dt-type-numeric">10</td>
+                                    </tr>*@
+
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="serviceProviderModal" tabindex="-1" aria-labelledby="serviceProviderModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h5 class="modal-title" id="serviceProviderModalLabel">New Commision Config </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <form>
+                    <!-- Service Provider Name -->
+                    <div class="mb-3">
+                        <label for="serviceProviderName" class="form-label">Service Provider Name</label>
+                        <select class="form-control" id="ddlServiceProvider" asp-items="@(new SelectList(ViewBag.Result,"Id","ProviderName"))" asp-for="Id">
+                            <option value="0">--Select Provider--</option>
+                        </select>
+                    </div>
+
+                    <!-- Logo Upload -->
+                    <div class="mb-3">
+                        <label for="serviceProviderLogo" class="form-label">Service Category</label>
+                        <select class="form-control" id="ddlCategory" asp-items="@(new SelectList(ViewBag.ResultCategory,"CategoryID","CategoryName"))" asp-for="CategoryID">
+                            <option value="0">--Select Service Category--</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="serviceProviderLogo" class="form-label">Service Sub Category</label>
+                        <select class="form-control" id="ddlSubCategory">
+                            @*  <option>Select Service Sub Category</option> *@
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="serviceProviderLogo" class="form-label">Commision Type</label>
+                        <select class="form-control" id="ddlCommisionType">
+                            <option value="0">--Select--</option>
+                            <option value="Fixed">Fixed</option>
+                            <option value="Percent">Percent</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="serviceProviderName" class="form-label">Commision</label>
+                        <input type="number" class="form-control" id="txtCommision" placeholder="Enter Commision">
+                    </div>
+                </form>
+            </div>
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button id="btnSubmit" type="button" class="btn btn-primary">Save Commsion Config</button>
+                <input type="hidden" id="hdnConfigId" value="0" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/lmsData/jquery/jquery.min.js"></script>
+<script>
+    //ddlServiceProvider
+    //ddlCategory
+    //ddlSubCategory
+    //ddlCommisionType
+    //txtCommision
+    $(document).ready(function () {
+        Getall_CommisionConfig();
+
+        $('#ddlCategory').change(function () {
+            onServiceCategoryChange($(this).val());
+        });
+    });
+
+    function onServiceCategoryChange(id) {
+        $('#ddlSubCategory').empty();
+        $('#ddlSubCategory').append('<option>--Select SubCategory--</option>');
+
+        // Check if the id is valid (non-null, non-empty).
+        if (id) {
+            $.ajax({
+                url: '@Url.Action("ViewProductSubCategory", "Lone")',  // URL for the AJAX request
+                type: 'GET',
+                data: { categoryId: id },  // Send the category id as a query parameter
+                success: function (result) {
+                    var subCategories = result;  // Get the list of subcategories from the result
+
+                    if (subCategories.length > 0) {
+                        $.each(subCategories, function (index, subCategory) {
+                            $('#ddlSubCategory').append('<option value="' + subCategory.subCategoryID + '">' + subCategory.subCategoryName + '</option>');
+                        });
+                    } else {
+                        $('#ddlSubCategory').append('<option>No subcategories found</option>');
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error("An error occurred: " + error);
+                }
+            });
+        }
+    }
+
+    $("#btnSubmit").click(function () {
+        // Get values from input fields
+
+        var CommConfigId = $("#hdnConfigId").val();
+        var serviceProvider = $("#ddlServiceProvider").val();
+        var serviceCategory = $("#ddlCategory").val();
+        var serviceSubCategory = $("#ddlSubCategory").val();
+        var commisionType = $("#ddlCommisionType").val();
+        var commision = $("#txtCommision").val();
+
+        // Create the data object to send
+        var dataToSend = {
+            CommisionConfigId: CommConfigId,
+            ServiceProviderID: serviceProvider,
+            CategoryID: serviceCategory,
+            SubCategoryID: serviceSubCategory,
+            CommisionType: commisionType,
+            CommissionAmount: commision
+        };
+
+        // Perform the AJAX request
+        $.ajax({
+            url: '/MASTERS/SaveCommisionConfig',  // URL to the controller action
+            type: 'POST',
+            contentType: 'application/json',       // Send the data as JSON
+            data: JSON.stringify(dataToSend),      // Convert the object to JSON
+            success: function (response) {
+                // Handle the response from the server
+                if (response.success) {
+                    alert(response.message);        // Success message from the server
+                    // Optionally clear the input fields
+                    //$("#hdnConfigId").val("0");
+                    $("#ddlServiceProvider").val("0");
+                    $("#ddlCategory").val("0");
+                    $("#ddlSubCategory").val("0");
+                    $("#ddlCommisionType").val("0");
+                    $("#txtCommision").val("");
+                    $("#hdnConfigId").val(0)
+                    Getall_CommisionConfig();
+                } else {
+                    alert(response.message || "Failed to save category.");
+                }
+            },
+            error: function (xhr, status, error) {
+                // Handle any errors that occur during the request
+                alert("An error occurred: " + error);
+            }
+        });
+    });
+
+    function Getall_CommisionConfig() {
+        $.ajax({
+            type: 'Get',
+            dataType: 'Json',
+            contentType: 'application/json; charset=utf-8',
+            data: {},
+            url: "@Url.Action("Getall_CommisionConfig", "MASTERS")",
+            success: function (result) {
+                var data1 = JSON.parse(result);
+                if (data1.length > 0) {
+                    $('#idbodyCommisionConfig').empty();  // Clear the table body
+
+                    $.each(data1, function (i, data) {
+                        var trows = "<tr>";
+                        trows += "<td>" + (i + 1) + "</td>";
+                        trows = trows + "<td>" + data.ServiceProviderName + "</td>";
+                        trows = trows + "<td>" + data.CategoryName + "</td>";
+                        trows = trows + "<td>" + data.SubCategoryName + "</td>";
+                        trows = trows + "<td>" + data.CommisionType + "</td>";
+                        trows = trows + "<td>" + data.CommissionAmount + "</td>";
+
+                        trows = trows + "<td><button class='btn btn-primary' data-bs-toggle='modal' data-bs-target='#serviceProviderModal' onclick='Edit(" + data.CommisionConfigId + ")'>Edit</button> <button class='btn btn-danger' onclick='deleteCommisionConfig(" + data.CommisionConfigId + ")'>Delete</button></td>";
+                        trows = trows + "</tr>";
+
+                        $('#idbodyCommisionConfig').append(trows);
+
+                    });
+                    $('#tblCommisionConfig').DataTable();
+                }
+            },
+            error: function (Message) {
+                alert(Message);
+            }
+        });
+    }
+    //-------------------------------------------------------
+    function Edit(Id) {
+        //alert(LeadId);
+        $("#hdnConfigId").val(Id);
+        $.ajax({
+            url: "/MASTERS/Get_CommisionConfigById?ConfigId=" + Id,
+            type: "GET", // Fixed typo: `typr` to `type`
+            contentType: "application/json;charset=UTF-8",
+            dataType: "json",
+            success: function (result) {
+                //alert(result.ServiceProviderID);
+                $("#ddlServiceProvider").val(result.ServiceProviderID);
+                $("#ddlCategory").val(result.CategoryID);
+                onServiceCategoryChange(result.CategoryID);
+                setTimeout(function () {
+                    $("#ddlSubCategory").val(result.SubCategoryID);
+                }, 100);
+                $("#ddlCommisionType").val(result.CommisionType);
+                $("#txtCommision").val(result.CommissionAmount);
+
+            },
+            error: function (errormessage) {
+                alert(errormessage.responseText);
+            }
+        });
+    }
+
+    //Delete CommisionConfig
+    function deleteCommisionConfig(Id) {
+        debugger;
+        if (confirm("Are you sure you want to delete ?")) {
+            $.ajax({
+                url: "/MASTERS/Delete_CommisionConfigById?Id=" + Id,
+                type: "Delete",
+                dataType: "json",
+                contentType: "application/json;charset=UTF-8",
+                success: function (data) {
+                    if (data.success) {
+                        alert(data.message);
+                        Getall_CommisionConfig();
+                    } else {
+                        alert(data.message || "Failed to Delete Commision Config.");
+                    }
+                },
+                error: function (error) {
+                    //jsonValue = jQuery.parseJSON(error.responseText);
+                    //bootbox.alert("Error : " + jsonValue);
+                }
+            });
+        }
+    }
+</script>
+

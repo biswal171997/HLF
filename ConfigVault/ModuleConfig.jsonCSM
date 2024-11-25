@@ -1,0 +1,10 @@
+[
+  {
+    "PageName": "ServiceProviderMaster",
+    "ModuleName": "MASTERS",
+    "StoreProcedureName": "USP_ServiceProviderMaster",
+    "Actions": "I/V",
+    "PageType": "ServiceProviderMaster/ViewServiceProviderMaster",
+    "Profile": "MyApp"
+  }
+]

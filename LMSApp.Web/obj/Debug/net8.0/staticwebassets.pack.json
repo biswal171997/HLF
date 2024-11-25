@@ -1,0 +1,1233 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LMSApp.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LMSApp.Web.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\Images\\bgimage1.jpg",
+      "PackagePath": "staticwebassets\\Images\\bgimage1.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\Signin\\app.js",
+      "PackagePath": "staticwebassets\\Signin\\app.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\Signin\\light.css",
+      "PackagePath": "staticwebassets\\Signin\\light.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\Signin\\settings.js",
+      "PackagePath": "staticwebassets\\Signin\\settings.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\css\\buttons.dataTables.min.css",
+      "PackagePath": "staticwebassets\\css\\buttons.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\css\\icons.css",
+      "PackagePath": "staticwebassets\\css\\icons.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\css\\slimscrollbar.min.css",
+      "PackagePath": "staticwebassets\\css\\slimscrollbar.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\Helvetica.eot",
+      "PackagePath": "staticwebassets\\fonts\\Helvetica.eot"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\Helvetica.svg",
+      "PackagePath": "staticwebassets\\fonts\\Helvetica.svg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\Helvetica.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Helvetica.ttf"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\Helvetica.woff",
+      "PackagePath": "staticwebassets\\fonts\\Helvetica.woff"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\Helvetica.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Helvetica.woff2"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\feather.ttf",
+      "PackagePath": "staticwebassets\\fonts\\feather.ttf"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\feather.woff",
+      "PackagePath": "staticwebassets\\fonts\\feather.woff"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\icons.eot",
+      "PackagePath": "staticwebassets\\fonts\\icons.eot"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\icons.svg",
+      "PackagePath": "staticwebassets\\fonts\\icons.svg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\icons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icons.ttf"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\fonts\\icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\icons.woff"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\Base.js",
+      "PackagePath": "staticwebassets\\js\\Base.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\buttons.print.js",
+      "PackagePath": "staticwebassets\\js\\buttons.print.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\chartist-plugin-fill-donut.min.js",
+      "PackagePath": "staticwebassets\\js\\chartist-plugin-fill-donut.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\chartist-plugin-tooltip.js",
+      "PackagePath": "staticwebassets\\js\\chartist-plugin-tooltip.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\chartist.min.js",
+      "PackagePath": "staticwebassets\\js\\chartist.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\common.js",
+      "PackagePath": "staticwebassets\\js\\common.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\custom2.js",
+      "PackagePath": "staticwebassets\\js\\custom2.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\dataTables.buttons.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.buttons.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\exportToExcel.js",
+      "PackagePath": "staticwebassets\\js\\exportToExcel.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\js\\slimscrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\slimscrollbar.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\css\\demo1\\style.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\css\\demo1\\style.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\fonts\\feather-font\\css\\iconfont.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\fonts\\feather-font\\css\\iconfont.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\faces\\blank.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\faces\\blank.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\logo-mini-dark.png",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\logo-mini-dark.png"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\logo-mini-light.png",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\logo-mini-light.png"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\others\\logo-placeholder.png",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\others\\logo-placeholder.png"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\others\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\others\\placeholder.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\others\\profile-cover.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\others\\profile-cover.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\photos\\img1.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\photos\\img1.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\photos\\img10.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\photos\\img10.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\photos\\img11.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\photos\\img11.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\photos\\img12.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\photos\\img12.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\photos\\img15.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\photos\\img15.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\photos\\img2.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\photos\\img2.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\photos\\img3.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\photos\\img3.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\photos\\img4.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\photos\\img4.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\photos\\img5.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\photos\\img5.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\photos\\img6.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\photos\\img6.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\photos\\img7.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\photos\\img7.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\photos\\img8.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\photos\\img8.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\images\\photos\\img9.jpg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\images\\photos\\img9.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\img\\Icons\\excel.svg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\img\\Icons\\excel.svg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\img\\Icons\\pdf.svg",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\img\\Icons\\pdf.svg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\ace.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\ace.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\apexcharts.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\app.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\bootstrap-maxlength.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\bootstrap-maxlength.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\chartjs.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\chartjs.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\chat.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\chat.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\color-modes.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\color-modes.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\cropper.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\cropper.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\data-table.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\demo.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\demo.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\dropify.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\dropify.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\dropzone.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\dropzone.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\easymde.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\easymde.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\email.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\email.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\flatpickr.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\flatpickr.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\form-validation.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\form-validation.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\fullcalendar.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\inputmask.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\inputmask.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\jquery-steps.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\jquery-steps.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\jquery.flot.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\peity.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\peity.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\pickr.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\pickr.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\select2.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\select2.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\sortablejs.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\sortablejs.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\sparkline.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\sparkline.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\sweet-alert.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\sweet-alert.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\tags-input.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\tags-input.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\tinymce.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\tinymce.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\js\\typeahead.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\js\\typeahead.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\ace-builds\\src-min\\ace.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\ace-builds\\src-min\\ace.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\ace-builds\\src-min\\theme-chaos.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\ace-builds\\src-min\\theme-chaos.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\animate.css\\animate.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\animate.css\\animate.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\apexcharts\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\apexcharts\\apexcharts.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\bootstrap-maxlength\\bootstrap-maxlength.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\bootstrap-maxlength\\bootstrap-maxlength.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\chartjs\\chart.umd.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\chartjs\\chart.umd.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\clipboard\\clipboard.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\clipboard\\clipboard.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\core\\core.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\core\\core.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\core\\core.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\core\\core.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\cropperjs\\cropper.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\cropperjs\\cropper.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\cropperjs\\cropper.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\cropperjs\\cropper.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\datatables.net-bs5\\dataTables.bootstrap5.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\datatables.net-bs5\\dataTables.bootstrap5.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\datatables.net-bs5\\dataTables.bootstrap5.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\datatables.net-bs5\\dataTables.bootstrap5.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\datatables.net\\dataTables.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\datatables.net\\dataTables.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\dropify\\dist\\dropify.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\dropify\\dist\\dropify.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\dropify\\dist\\dropify.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\dropify\\dist\\dropify.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\dropzone\\dropzone-min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\dropzone\\dropzone-min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\dropzone\\dropzone.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\dropzone\\dropzone.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\easymde\\easymde.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\easymde\\easymde.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\easymde\\easymde.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\easymde\\easymde.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\feather-icons\\feather.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\feather-icons\\feather.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\flag-icon-css\\css\\flag-icon.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\flag-icon-css\\css\\flag-icon.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\flatpickr\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\flatpickr\\flatpickr.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\flatpickr\\flatpickr.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\flatpickr\\flatpickr.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\fullcalendar\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\fullcalendar\\index.global.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\inputmask\\jquery.inputmask.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\inputmask\\jquery.inputmask.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\jquery-mousewheel\\jquery.mousewheel.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\jquery-mousewheel\\jquery.mousewheel.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\jquery-sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\jquery-sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\jquery-steps\\jquery.steps.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\jquery-steps\\jquery.steps.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\jquery-steps\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\jquery-steps\\jquery.steps.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\jquery-tags-input\\jquery.tagsinput.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\jquery-tags-input\\jquery.tagsinput.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\jquery-tags-input\\jquery.tagsinput.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\jquery-tags-input\\jquery.tagsinput.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\jquery-validation\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\jquery-validation\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\jquery.flot\\jquery.flot.categories.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\jquery.flot\\jquery.flot.categories.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\jquery.flot\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\jquery.flot\\jquery.flot.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\jquery.flot\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\jquery.flot\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\jquery.flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\jquery.flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\moment\\moment.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\owl.carousel\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\owl.carousel\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\owl.carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\owl.carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\owl.carousel\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\owl.carousel\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\owl.carousel\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\owl.carousel\\owl.video.play.html"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\peity\\jquery.peity.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\peity\\jquery.peity.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\pickr\\pickr.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\pickr\\pickr.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\pickr\\themes\\classic.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\pickr\\themes\\classic.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\prismjs\\prism.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\prismjs\\prism.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\prismjs\\themes\\prism.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\prismjs\\themes\\prism.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\select2\\select2.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\sortablejs\\Sortable.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\sortablejs\\Sortable.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\sweetalert2\\sweetalert2.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\assets\\vendors\\typeahead.js\\typeahead.bundle.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\assets\\vendors\\typeahead.js\\typeahead.bundle.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\css\\site.css",
+      "PackagePath": "staticwebassets\\lmsData\\css\\site.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\favicon.ico",
+      "PackagePath": "staticwebassets\\lmsData\\favicon.ico"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\js\\site.js",
+      "PackagePath": "staticwebassets\\lmsData\\js\\site.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\lmsData\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lmsData\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\uploads\\logos\\1b56c34c-d2e3-4096-bfa1-0b8b10743b6f_Logo.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\logos\\1b56c34c-d2e3-4096-bfa1-0b8b10743b6f_Logo.jpeg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\uploads\\logos\\26a36ac4-d44a-4355-a3a7-fd53d0ccef40_Logo.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\logos\\26a36ac4-d44a-4355-a3a7-fd53d0ccef40_Logo.jpeg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\uploads\\logos\\27eba1ef-f9e0-4bec-b713-2b91176ec0ad_Logo.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\logos\\27eba1ef-f9e0-4bec-b713-2b91176ec0ad_Logo.jpeg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\uploads\\logos\\35fe3c0d-00bc-44b1-ab1e-1d7c4a8fa2c2_Capture.PNG",
+      "PackagePath": "staticwebassets\\uploads\\logos\\35fe3c0d-00bc-44b1-ab1e-1d7c4a8fa2c2_Capture.PNG"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\uploads\\logos\\43c0492e-de16-4e01-999c-ac6f52d066d9_Capture.PNG",
+      "PackagePath": "staticwebassets\\uploads\\logos\\43c0492e-de16-4e01-999c-ac6f52d066d9_Capture.PNG"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\uploads\\logos\\44213a3d-cf82-4d06-a414-1b77c50e512e_Logo.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\logos\\44213a3d-cf82-4d06-a414-1b77c50e512e_Logo.jpeg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\uploads\\logos\\56540a81-43fa-4d0e-a4bd-a509eb7dab6b_Logo.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\logos\\56540a81-43fa-4d0e-a4bd-a509eb7dab6b_Logo.jpeg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\uploads\\logos\\6b449051-d4a5-4c1f-8ae4-122f5106cb5c_Logo.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\logos\\6b449051-d4a5-4c1f-8ae4-122f5106cb5c_Logo.jpeg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\uploads\\logos\\Capture.PNG",
+      "PackagePath": "staticwebassets\\uploads\\logos\\Capture.PNG"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\uploads\\logos\\IMG-20241020-WA0005.jpg",
+      "PackagePath": "staticwebassets\\uploads\\logos\\IMG-20241020-WA0005.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\uploads\\logos\\Logo.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\logos\\Logo.jpeg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\uploads\\logos\\aaef168d-eb91-416a-bb4e-e73890987a23_IMG-20241020-WA0005.jpg",
+      "PackagePath": "staticwebassets\\uploads\\logos\\aaef168d-eb91-416a-bb4e-e73890987a23_IMG-20241020-WA0005.jpg"
+    },
+    {
+      "Id": "D:\\subashaproject\\NewApp2\\NewApp2\\LMSApp.Web\\wwwroot\\uploads\\logos\\e850b190-ef0a-42eb-9ab0-42e9013f5eda_Logo.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\logos\\e850b190-ef0a-42eb-9ab0-42e9013f5eda_Logo.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LMSApp.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LMSApp.Web.props",
+      "PackagePath": "build\\LMSApp.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LMSApp.Web.props",
+      "PackagePath": "buildMultiTargeting\\LMSApp.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LMSApp.Web.props",
+      "PackagePath": "buildTransitive\\LMSApp.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

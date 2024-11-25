@@ -1,0 +1,68 @@
+D:\project Test\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Repository.deps.json
+D:\project Test\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Repository.dll
+D:\project Test\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Repository.pdb
+D:\project Test\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Core.dll
+D:\project Test\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Model.dll
+D:\project Test\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Model.pdb
+D:\project Test\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Core.pdb
+D:\project Test\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.csproj.AssemblyReference.cache
+D:\project Test\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\project Test\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.AssemblyInfoInputs.cache
+D:\project Test\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.AssemblyInfo.cs
+D:\project Test\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.csproj.CoreCompileInputs.cache
+D:\project Test\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.R.E9A637AF.Up2Date
+D:\project Test\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.dll
+D:\project Test\NewApp2\LMSApp.Repository\obj\Debug\net8.0\refint\LMSApp.Repository.dll
+D:\project Test\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.pdb
+D:\project Test\NewApp2\LMSApp.Repository\obj\Debug\net8.0\ref\LMSApp.Repository.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Repository.deps.json
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Repository.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Repository.pdb
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Core.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Model.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Model.pdb
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Core.pdb
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.csproj.AssemblyReference.cache
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.AssemblyInfoInputs.cache
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.AssemblyInfo.cs
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.csproj.CoreCompileInputs.cache
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.R.E9A637AF.Up2Date
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\refint\LMSApp.Repository.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.pdb
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\ref\LMSApp.Repository.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Repository.deps.json
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Repository.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Repository.pdb
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Core.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Model.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Model.pdb
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Core.pdb
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.csproj.AssemblyReference.cache
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.AssemblyInfoInputs.cache
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.AssemblyInfo.cs
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.csproj.CoreCompileInputs.cache
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.R.E9A637AF.Up2Date
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\obj\Debug\net8.0\refint\LMSApp.Repository.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.pdb
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Repository\obj\Debug\net8.0\ref\LMSApp.Repository.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Repository.deps.json
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Repository.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Repository.pdb
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Core.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Model.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Model.pdb
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\bin\Debug\net8.0\LMSApp.Core.pdb
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.csproj.AssemblyReference.cache
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.AssemblyInfoInputs.cache
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.AssemblyInfo.cs
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.csproj.CoreCompileInputs.cache
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.R.E9A637AF.Up2Date
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\refint\LMSApp.Repository.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\LMSApp.Repository.pdb
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Repository\obj\Debug\net8.0\ref\LMSApp.Repository.dll

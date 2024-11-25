@@ -1,0 +1,175 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LMSApp.Web
+build_property.RootNamespace = LMSApp.Web
+build_property.ProjectDir = D:\subashaproject\NewApp2\NewApp2\LMSApp.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\subashaproject\NewApp2\NewApp2\LMSApp.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/CodeGenLogin/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZUdlbkxvZ2luXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/CodeGenLogin/Forgetpass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZUdlbkxvZ2luXEZvcmdldHBhc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/CodeGenLogin/Newpassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZUdlbkxvZ2luXE5ld3Bhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/CodeGenLogin/SendSMS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZUdlbkxvZ2luXFNlbmRTTVMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/CodeGenLogin/UserLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29kZUdlbkxvZ2luXFVzZXJMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/HFLLogin/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSEZMTG9naW5cU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/InsuranceOppertunity/AddLead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlT3BwZXJ0dW5pdHlcQWRkTGVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/InsuranceOppertunity/BondIssues.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdXJhbmNlT3BwZXJ0dW5pdHlcQm9uZElzc3Vlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/LoginLayout/_Layout1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5MYXlvdXRcX0xheW91dDEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Lone/Applied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9uZVxBcHBsaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Lone/Disbrusment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9uZVxEaXNicnVzbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Lone/Lead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9uZVxMZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Lone/Opportunity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9uZVxPcHBvcnR1bml0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Lone/Rejected.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9uZVxSZWplY3RlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Lone/Sanctioned.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9uZVxTYW5jdGlvbmVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/MASTERS/CommisionConfig.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTUFTVEVSU1xDb21taXNpb25Db25maWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/MASTERS/ServiceCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTUFTVEVSU1xTZXJ2aWNlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/MASTERS/ServiceProviderMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTUFTVEVSU1xTZXJ2aWNlUHJvdmlkZXJNYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/MASTERS/ServiceSubCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTUFTVEVSU1xTZXJ2aWNlU3ViQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/MASTERS/ViewServiceProviderMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTUFTVEVSU1xWaWV3U2VydmljZVByb3ZpZGVyTWFzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Report/LcLgWiseSales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XExjTGdXaXNlU2FsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Report/ProviderWiseSales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XFByb3ZpZGVyV2lzZVNhbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Search/BookingOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXEJvb2tpbmdPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Search/Centralplaning.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXENlbnRyYWxwbGFuaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Search/Enqiry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXEVucWlyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Search/manufacturing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXG1hbnVmYWN0dXJpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Search/markting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXG1hcmt0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Search/Orderprocessing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXE9yZGVycHJvY2Vzc2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Search/ViewEnqiry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXFZpZXdFbnFpcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Shared/_LayoutLMS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMTVMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/subashaproject/NewApp2/NewApp2/LMSApp.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ydi2tgv1z3

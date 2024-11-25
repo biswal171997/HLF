@@ -1,0 +1,405 @@
+﻿@{
+    ViewBag.Title = "Service Category";
+    Layout = "~/Views/Shared/_LayoutLMS.cshtml";
+}
+<style>
+
+    .ttt {
+        height: 38px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        border: 1px solid #e8ebed;
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 6px;
+    }
+</style>
+<div class="page-header">
+    <div class="d-flex justify-content-between align-items-center">
+        <!-- Page Title -->
+        <div class="page-title">
+            <h4>Service Category</h4>
+            <h6>Manage your Service Category !</h6>
+        </div>
+
+        <!-- Action Buttons and Icons -->
+        <div class="d-flex align-items-center">
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Pdf">
+                        <img src="/lmsData/assets/img/icons/pdf.svg" alt="Pdf">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Excel">
+                        <img src="/lmsData/assets/img/icons/excel.svg" alt="Excel">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Print">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-printer feather-rotate-ccw">
+                            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                            <rect x="6" y="14" width="12" height="8"></rect>
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Refresh">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-ccw">
+                            <polyline points="1 4 1 10 7 10"></polyline>
+                            <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                        </svg>
+                    </a>
+                </li>
+                @*   <li class="list-inline-item">
+                <a href="#" class="ttt"  data-bs-toggle="tooltip" data-bs-placement="top" title="Collapse" id="collapse-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up">
+                <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+                </a>
+                </li> *@
+            </ul>
+
+            <!-- Add New Brand Button -->
+            <a href="#" class="btn btn-primary ms-3" data-bs-toggle="modal" data-bs-target="#serviceCategoryModal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle me-2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="16"></line>
+                    <line x1="8" y1="12" x2="16" y2="12"></line>
+                </svg>
+                Add Service Category
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row mb-3"></div>
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+
+                <div class="table-responsive">
+                    <div id="dataTableExample_wrapper" class="dt-container dt-bootstrap5 dt-empty-footer">
+                        <table id="tblCategory" class="table dataTable" aria-describedby="dataTableExample_info" style="width: 100%">
+                            <colgroup>
+                                <col data-dt-column="0" style="width: 195.219px;">
+                                <col data-dt-column="1" style="width: 281.391px;">
+                                <col data-dt-column="2" style="width: 158.281px;">
+
+                            </colgroup>
+                            <thead>
+                                <tr role="row">
+                                    <th data-dt-column="0" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc dt-ordering-asc" aria-sort="ascending" aria-label="Name: Activate to invert sorting" tabindex="0">
+                                        <span class="dt-column-title" role="button">Sl No</span><span class="dt-column-order"></span>
+                                    </th>
+                                    <th data-dt-column="1" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Logo: Activate to sort" tabindex="0">
+                                        <span class="dt-column-title" role="button">Category Name</span><span class="dt-column-order"></span>
+                                    </th>
+                                    <th data-dt-column="2" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Provider Name: Activate to sort" tabindex="0">
+                                        <span class="dt-column-title" role="button">Action</span><span class="dt-column-order"></span>
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyCategory">
+                                <!-- Data will be inserted dynamically here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal for adding service provider -->
+<div class="modal fade" id="serviceProviderModal" tabindex="-1" aria-labelledby="serviceProviderModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h5 class="modal-title" id="serviceProviderModalLabel">Add Service Provider</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <form id="serviceProviderForm">
+                    <!-- Service Provider Name -->
+                    <div class="mb-3">
+                        <label for="serviceProviderName" class="form-label">Service Provider Name</label>
+                        <input type="text" class="form-control" id="serviceProviderName" placeholder="Enter service provider name">
+                    </div>
+
+                    <!-- Logo Upload -->
+                    <div class="mb-3">
+                        <label for="serviceProviderLogo" class="form-label">Logo</label>
+                        <input class="form-control" type="file" id="serviceProviderLogo" accept="image/*">
+                    </div>
+
+                    <!-- Preview of Logo (optional) -->
+                    <div id="logoPreview" class="mt-3" style="display: none;">
+                        <p><strong>Logo Preview:</strong></p>
+                        <img id="logoImage" src="" alt="Logo Preview" class="img-fluid" style="max-width: 100px;">
+                    </div>
+                </form>
+            </div>
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button id="btnSubmit" type="button" class="btn btn-primary">Save Service Provider</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@* <div class="row">
+        <div class="col-md-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="table-responsive">
+                        <div id="dataTableExample_wrapper" class="dt-container dt-bootstrap5 dt-empty-footer">
+
+
+                            <table id="tblCategory" class="table dataTable" aria-describedby="dataTableExample_info">
+
+                                <thead>
+                                    <tr role="row">
+                                        <th data-dt-column="0" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc dt-ordering-asc" aria-sort="ascending" aria-label="Name: Activate to invert sorting" tabindex="0"><span class="dt-column-title" role="button">Sl No</span><span class="dt-column-order"></span></th>
+                                        <th data-dt-column="1" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Position: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Name</span><span class="dt-column-order"></span></th>
+                                        <th data-dt-column="2" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Office: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Mobile No</span><span class="dt-column-order"></span></th>
+
+                                    </tr>
+                                </thead>
+                                <tbody id="tbodyCategory">
+                                </tbody>
+                                <tfoot></tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> *@
+
+
+
+<div class="modal fade" id="serviceCategoryModal" tabindex="-1" aria-labelledby="serviceProviderModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h5 class="modal-title" id="serviceProviderModalLabel">Add Service Category</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <form>
+                    <!-- Service Provider Name -->
+                    <div class="mb-3">
+                        <label for="serviceProviderName" class="form-label">Service Category Name</label>
+                        <input type="text" class="form-control" id="txtCategoryName" placeholder="Enter service category name">
+                    </div>
+
+
+                </form>
+            </div>
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button id="btnSubmitCategory" type="button" class="btn btn-primary">Save Service Category</button>
+                <input type="hidden" id="hdnCatId" value="0" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/lmsData/jquery/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        Get_ServiceCategory();
+    });
+
+
+
+    // function Get_ServiceCategory() {
+    //     debugger;
+
+    //     // Make AJAX call to fetch data
+    //     $.ajax({
+    //         type: 'GET',
+    //         dataType: 'json',
+    //         contentType: 'application/json; charset=utf-8',
+    //         data: {},  // You can pass parameters here if needed
+    //         url: "@Url.Action("Get_ServiceCategory", "MASTERS")",
+    //         success: function (result) {
+    //             console.log(result);  // Log result to verify if the data is returned correctly
+
+    //             // Check if data is available and not empty
+    //             if (result && result.length > 0) {
+    //                 // Initialize DataTable only once
+    //                 if (!$.fn.DataTable.isDataTable('#dataTableExample')) {
+    //                     // Initialize DataTable when it's not initialized
+    //                     $('#dataTableExample').DataTable({
+    //                         "processing": true,
+    //                         "serverSide": false,
+    //                         "ordering": true,  // Enable sorting
+    //                         "searching": true, // Enable searching/filtering
+    //                         "paging": true      // Enable paging
+    //                     });
+    //                 }
+
+    //                 // Clear the table first to avoid appending data multiple times
+    //                 var table = $('#dataTableExample').DataTable();
+    //                 table.clear();
+
+    //                 // Append new rows to the DataTable
+    //                 $.each(result, function (i, data) {
+    //                     var trow = [
+    //                         (i + 1),  // Sl No
+    //                         data.CategoryName,  // Category Name
+    //                         "<button class='btn btn-primary' onclick='Edit(" + data.CategoryID + ")'>Edit</button> <button class='btn btn-danger' onclick='Delete_ServiceCategory(" + data.CategoryID + ")'>Delete</button>"
+    //                     ];
+    //                     table.row.add(trow);  // Add row to the DataTable
+    //                 });
+
+    //                 // Draw the DataTable to update the UI
+    //                 table.draw();
+    //             } else {
+    //                 console.log("No data returned or data is empty.");
+    //             }
+    //         },
+    //         error: function (err) {
+    //             // Log error if something goes wrong
+    //             console.error("Error fetching data: ", err);
+    //         }
+    //     });
+    // }
+
+    function Get_ServiceCategory() {
+        $.ajax({
+            type: 'Get',
+            dataType: 'Json',
+            contentType: 'application/json; charset=utf-8',
+            data: {},
+            url: "@Url.Action("Get_ServiceCategory", "MASTERS")",
+            success: function (result) {
+                var data1 = JSON.parse(result);
+                if (data1.length > 0) {
+                    $('#tbodyCategory').empty();  // Clear the table body
+                    $.each(data1, function (i, data) {
+                        var trows = "<tr>";
+                        trows += "<td>" + (i + 1) + "</td>";
+                        trows = trows + "<td>" + data.CategoryName + "</td>";
+                        //trows = trows + "<td><button class='btn btn-primary' data-bs-toggle='modal' data-bs-target='#serviceCategoryModal' onclick='Edit(" + data.CategoryID + ")'>Edit</button> <button class='btn btn-danger' onclick='Delete_ServiceProviderMaster(" + data.CategoryID + ")'>Delete</button></td>";
+                        trows = trows + "<td><button class='btn btn-primary' data-bs-toggle='modal' data-bs-target='#serviceCategoryModal' onclick='Edit(" + data.CategoryID + ")'>Edit</button> <button class='btn btn-danger' onclick='deleteServiceCategory(" + data.CategoryID + ")'>Delete</button></td>";
+
+                        trows = trows + "</tr>";
+
+                        $('#tbodyCategory').append(trows);
+
+                    });
+                    $('#tblCategory').DataTable();
+                }
+            },
+            error: function (Message) {
+                alert(Message);
+            }
+        });
+    }
+
+
+    $("#btnSubmitCategory").click(function () {
+        // Get the CategoryName value from the input field
+        var categoryName = $("#txtCategoryName").val().trim();
+        var catId = $("#hdnCatId").val();
+        // Validate that the CategoryName is not empty
+        if (categoryName === "") {
+            alert("Category name is required.");
+            return;
+        }
+        var dataToSend = {
+            CategoryID: catId,
+            CategoryName: categoryName
+        };
+
+
+        $.ajax({
+            url: '/MASTERS/SaveServiceCategory',  // This is the URL to the controller action
+            type: 'POST',
+            contentType: 'application/json',   // Send the data as JSON
+            data: JSON.stringify(dataToSend),   // Convert the object to JSON
+            success: function (response) {
+                // Handle the response from the server
+                if (response.success) {
+                    alert(response.message);  // Success message from the server
+                    $("#txtCategoryName").val("");  // Optionally clear the input field
+                    Get_ServiceCategory();
+
+                } else {
+                    alert(response.message || "Failed to save category.");
+                }
+            },
+            error: function (xhr, status, error) {
+                // Handle any errors that occur during the request
+                alert("An error occurred: " + error);
+            }
+        });
+    });
+
+    function Edit(Id) {
+        //alert(LeadId);
+        $("#hdnCatId").val(Id);
+        $.ajax({
+            url: "/MASTERS/GetServiceCategoryById?id=" + Id,
+            type: "GET", // Fixed typo: `typr` to `type`
+            contentType: "application/json;charset=UTF-8",
+            dataType: "json",
+            success: function (result) {
+                //alert(result.ServiceProviderID);ddlCategoryName txtSubCategoryName
+                $("#txtCategoryName").val(result.CategoryName);
+            },
+            error: function (errormessage) {
+                alert(errormessage.responseText);
+            }
+        });
+    }
+    //Delete ServiceCategory
+    function deleteServiceCategory(Id) {
+        debugger;
+        if (confirm("Are you sure you want to delete ?")) {
+            $.ajax({
+                url: "/MASTERS/DeleteServiceCategory?id=" + Id,
+                type: "Delete",
+                dataType: "json",
+                contentType: "application/json;charset=UTF-8",
+                success: function (data) {
+                    if (data.success) {
+                        Get_ServiceCategory();
+                        alert(data.message);
+
+                    } else {
+                        alert(data.message || "Failed to Delete Category.");
+                    }
+                },
+                error: function (error) {
+                    //jsonValue = jQuery.parseJSON(error.responseText);
+                    //bootbox.alert("Error : " + jsonValue);
+                }
+            });
+        }
+    }
+
+
+</script>

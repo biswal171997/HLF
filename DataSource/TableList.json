@@ -1,0 +1,22 @@
+[
+  {
+    "TableName": "Category",
+    "DataBase_Name": "MyApp"
+  },
+  {
+    "TableName": "CPKG_1_USER",
+    "DataBase_Name": "MyApp"
+  },
+  {
+    "TableName": "Product",
+    "DataBase_Name": "MyApp"
+  },
+  {
+    "TableName": "ServiceProviderMaster",
+    "DataBase_Name": "MyApp"
+  },
+  {
+    "TableName": "SubCategory",
+    "DataBase_Name": "MyApp"
+  }
+]

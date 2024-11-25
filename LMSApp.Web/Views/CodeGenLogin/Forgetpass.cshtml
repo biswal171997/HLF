@@ -1,0 +1,157 @@
+﻿@*@model FrameworkConsole.Model.forgetpassmodel*@
+@{
+    ViewData["Title"] = "ForgetPassword";
+}
+<h1>ForgetPassword</h1>
+
+<div class="row">
+    <div class="col-md-4">
+       
+
+       
+
+            <div class="form-group">
+            <label class="control-label">Domainname</label>
+                <input type="text" class="form-control" id="txtDomainname" />
+                <label class="control-label">Email</label>
+                <input type="text" class="form-control" id="txtemail" />
+            </div>
+        <br />
+            <div class="form-group" id="continuebutton">
+                <input type="submit" value="Continue" class="btn btn-primary" onclick="generateotp()" />
+               
+            </div>
+            <div class="form-group" id="otpdiv">
+                
+                <div class="alert alert-success" role="alert">
+                    <p>We Have Sent an otp on your Registered EmailId</p>
+                </div>
+                
+                <div>
+                    <label class="control-label">Enter Otp</label>
+                    <input type="text" class="form-control" id="txtotp1" />
+                </div>
+                <br />
+                <div>
+                    <input type="submit" value="Submit" class="btn btn-primary" onclick="checkotp()" />
+                <div class="form-group" id="continuebutton1">
+                    <button class="btn btn-primary" onclick="generateotp()">If not recieve resend Otp</button>
+                   
+                </div>
+           
+
+            </div>
+    </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $("#otpdiv").hide();
+        $("#continuebutton1").hide();
+    });
+    
+</script>
+<script>
+    function generateotp() {
+        if (validate()) {
+            var user = {
+                vchemail: $('#txtemail').val(),
+                Domainname: $('#txtDomainname').val(),
+            };
+            $.ajax({
+                url: '@Url.Action("Forgetpass", "CodeGenLogin")',
+                data: user,
+                type: "POST",
+                success: function (res) {
+                    if (res.responseText == "Success") {
+                        Swal.fire({
+                            icon: 'success',
+                            title: res.responseText,
+                            text: res.responseMessage,
+                        }).then((value) => {
+                            if (value) {
+                                $("#continuebutton").hide();
+                                $("#otpdiv").show();
+                                    $("#continuebutton1").show();
+                            }
+                        });
+                    }
+                   
+                    
+                    else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: res.responseText,
+                            text: res.responseMessage,
+                        });
+                    }
+                },
+                error: function (result) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: result.responseText,
+                        text: result.responseMessage,
+                    });
+                },
+            });
+        }
+        function validate() {
+
+            if ($('#txtDomainname').val() == '') {
+                swal.fire('Please Enter Your UserName!');
+                $('#txtDomainname').focus();
+                return false;
+            }
+            else if ($('#txtemail').val() == '') {
+                swal.fire('Please Enter Emailid!');
+                $('#txtemail').focus();
+                return false;
+            }
+            else
+                return true;
+        }
+     }
+
+    function checkotp() {
+        var domainname= $('#txtDomainname').val();
+        var user = {
+            otp: $('#txtotp1').val(),
+            Domainname: $('#txtDomainname').val(),
+        };
+        $.ajax({
+            url: '@Url.Action("checkotp", "User")',
+            data: user,
+            type: "POST",
+            success: function (res) {
+                if (res.responseText == "Success") {
+                    Swal.fire({
+                        icon: 'success',
+                        title: res.responseText,
+                        text: res.responseMessage,
+                    }).then((value) => {
+                        if (value) {
+                            location.href = "../CodeGenLogin/Newpassword?Domainname=" + domainname;
+
+                        }
+                    });
+                }
+                else {
+                    Swal.fire({
+                        icon: 'error',
+                        title: res.responseText,
+                        text: res.responseMessage,
+                    });
+                }
+                
+            },
+            error: function (result) {
+                Swal.fire({
+                    icon: 'error',
+                    title: result.responseText,
+                    text: result.responseMessage,
+                });
+            },
+        });
+    }
+
+</script>

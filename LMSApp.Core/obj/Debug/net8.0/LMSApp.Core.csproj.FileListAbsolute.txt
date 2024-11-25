@@ -1,0 +1,48 @@
+D:\project Test\NewApp2\LMSApp.Core\bin\Debug\net8.0\LMSApp.Core.deps.json
+D:\project Test\NewApp2\LMSApp.Core\bin\Debug\net8.0\LMSApp.Core.dll
+D:\project Test\NewApp2\LMSApp.Core\bin\Debug\net8.0\LMSApp.Core.pdb
+D:\project Test\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.csproj.AssemblyReference.cache
+D:\project Test\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\project Test\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.AssemblyInfoInputs.cache
+D:\project Test\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.AssemblyInfo.cs
+D:\project Test\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.csproj.CoreCompileInputs.cache
+D:\project Test\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.dll
+D:\project Test\NewApp2\LMSApp.Core\obj\Debug\net8.0\refint\LMSApp.Core.dll
+D:\project Test\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.pdb
+D:\project Test\NewApp2\LMSApp.Core\obj\Debug\net8.0\ref\LMSApp.Core.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Core\bin\Debug\net8.0\LMSApp.Core.deps.json
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Core\bin\Debug\net8.0\LMSApp.Core.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Core\bin\Debug\net8.0\LMSApp.Core.pdb
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.csproj.AssemblyReference.cache
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.AssemblyInfoInputs.cache
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.AssemblyInfo.cs
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\refint\LMSApp.Core.dll
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.pdb
+C:\Users\smruti\Desktop\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\ref\LMSApp.Core.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Core\bin\Debug\net8.0\LMSApp.Core.deps.json
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Core\bin\Debug\net8.0\LMSApp.Core.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Core\bin\Debug\net8.0\LMSApp.Core.pdb
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.csproj.AssemblyReference.cache
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.AssemblyInfoInputs.cache
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.AssemblyInfo.cs
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.csproj.CoreCompileInputs.cache
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Core\obj\Debug\net8.0\refint\LMSApp.Core.dll
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.pdb
+D:\project Test\HFL Project Latest Nov19\NewApp2\LMSApp.Core\obj\Debug\net8.0\ref\LMSApp.Core.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Core\bin\Debug\net8.0\LMSApp.Core.deps.json
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Core\bin\Debug\net8.0\LMSApp.Core.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Core\bin\Debug\net8.0\LMSApp.Core.pdb
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.csproj.AssemblyReference.cache
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.AssemblyInfoInputs.cache
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.AssemblyInfo.cs
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.csproj.CoreCompileInputs.cache
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\refint\LMSApp.Core.dll
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\LMSApp.Core.pdb
+D:\subashaproject\NewApp2\NewApp2\LMSApp.Core\obj\Debug\net8.0\ref\LMSApp.Core.dll

@@ -1,0 +1,129 @@
+﻿@{
+    ViewData["Title"] = "login";
+}
+<div class="content">
+    <div class="row">
+        @Html.AntiForgeryToken()
+
+        <form id="form">
+
+            <div class="form-group row">
+                <label class="col-12 col-md-2 col-xl-2 mb-3 control-label" for="demo-text-input">Domain Name<span class="m-2">:</span></label>
+                <div class="col-12 col-md-6 col-xl-8 mb-3">
+                    <input type="text" id="Domainname" name="Domainname" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-12 col-md-2 col-xl-2 mb-3 control-label" for="demo-text-input">Mobile Number<span class="m-2">:</span></label>
+                <div class="col-12 col-md-6 col-xl-8 mb-3">
+                    <input type="number" id="mobilenumber" name="mobilenumber" class="form-control" onchange="validatemobno()" onKeyPress="if(this.value.length==10) return false;">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-12 col-md-2 col-xl-2 control-label" for="demo-text-input"></label>
+
+                <br />
+                <div class="col-12 col-md-8 col-xl-12">
+                    <input type="button" value="Submit" id="btn_Submit" class="btn btn-primary" />
+                </div>
+            </div>
+        </form>
+        @*Write code here*@
+    </div>
+</div>
+@section scripts {
+
+    <script>
+        $("#form").validate({
+            rules: {
+                Domainname: {
+                    required: true
+                },
+            },
+            messages: {
+                Domainname: {
+                    required: "Please enter Domain Name"
+                },
+
+            },
+
+            highlight: function (element) {
+                $(element).removeClass("is-valid")
+                $(element).parent().addClass('error')
+                $(element).addClass("is-invalid")
+            },
+            unhighlight: function (element) {
+                $(element).parent().removeClass('error')
+                $(element).removeClass("is-invalid");
+                $(element).addClass("is-valid")
+            }
+        });
+        function Send_SMS() {
+            if ($("#form").valid()) {
+
+                var TBL_UserMaster = {
+                    Domainname: $("#Domainname").val(),
+                    vchmobno: $("#mobilenumber").val(),
+
+                };
+                $.ajax({
+                    type: "POST",
+                    url: "/CodeGenLogin/SendSMS",
+                    beforeSend: function (xhr) {
+                        xhr.setRequestHeader("XSRF-TOKEN",
+                            $('input:hidden[name="__RequestVerificationToken"]').val());
+                    },
+                    data: TBL_UserMaster,
+                    content: 'application/json;charset=utf-8',
+                    dataType: "json",
+                    success: function (result) {
+                        if (result!= "Invalid User!!") {
+                            Swal.fire({
+                                icon: 'success',
+                                title: result,
+                            }).then((value) => {
+                                if (value) {
+                                    location.href = "../CodeGenLogin/SendSMS";
+                                }
+                            });
+                        }
+                        else {
+                            Swal.fire({
+                                icon: 'error',
+                                title: result,
+                            }).then((value) => {
+                                if (value) {
+                                    location.href = "../CodeGenLogin/SendSMS";
+                                }
+                            });;
+                        }
+                    },
+                    error: function (result) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: result,
+                            text: result,
+                        });
+                    },
+                });
+            }
+        }
+        //Script added for click event
+        $(document).ready(function () {
+            $('#btn_Submit').click(function () {
+                Send_SMS();
+            });
+        });
+
+    </script>
+
+    <script>
+        function validatemobno(){
+            if ($("#mobilenumber").val().length<10){
+                Swal.fire("Please enter a valid mobile number!!");
+                $("#mobilenumber").val("");
+                return false;
+            }
+        }
+    </script>
+}

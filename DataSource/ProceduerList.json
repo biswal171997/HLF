@@ -1,0 +1,30 @@
+[
+  {
+    "SPName": "USP_Category",
+    "DataBase_Name": "MyApp"
+  },
+  {
+    "SPName": "USP_Category_Copy_1",
+    "DataBase_Name": "MyApp"
+  },
+  {
+    "SPName": "USP_CPKG_1_USERLOGIN",
+    "DataBase_Name": "MyApp"
+  },
+  {
+    "SPName": "USP_ServiceProvider",
+    "DataBase_Name": "MyApp"
+  },
+  {
+    "SPName": "USP_ServiceProvider_Copy_1",
+    "DataBase_Name": "MyApp"
+  },
+  {
+    "SPName": "USP_SubCategory",
+    "DataBase_Name": "MyApp"
+  },
+  {
+    "SPName": "USP_SubCategory_Copy_1",
+    "DataBase_Name": "MyApp"
+  }
+]

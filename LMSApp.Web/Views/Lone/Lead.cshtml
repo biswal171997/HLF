@@ -1,0 +1,929 @@
+﻿@model LMSApp.Model.Entities.Loan.LoanLeadDetails
+@{
+    ViewBag.Title = "Lead";
+    Layout = "~/Views/Shared/_LayoutLMS.cshtml";
+}
+
+<style>
+
+    .ttt {
+        height: 38px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        justify-content: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        border: 1px solid #e8ebed;
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 6px;
+    }
+</style>
+<div class="page-header">
+    <div class="d-flex justify-content-between align-items-center">
+        <!-- Page Title -->
+        <div class="page-title">
+            <h4>Lead</h4>
+            <h6>Manage Your Lead !</h6>
+        </div>
+
+        <!-- Action Buttons and Icons -->
+        <div class="d-flex align-items-center">
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Pdf">
+                        <img src="/lmsData/assets/img/icons/pdf.svg" alt="Pdf">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Excel">
+                        <img src="/lmsData/assets/img/icons/excel.svg" alt="Excel">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Print">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-printer feather-rotate-ccw">
+                            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                            <rect x="6" y="14" width="12" height="8"></rect>
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Refresh">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-ccw">
+                            <polyline points="1 4 1 10 7 10"></polyline>
+                            <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                        </svg>
+                    </a>
+                </li>
+                @*   <li class="list-inline-item">
+                    <a href="#" class="ttt"  data-bs-toggle="tooltip" data-bs-placement="top" title="Collapse" id="collapse-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                    </svg>
+                    </a>
+                    </li> *@
+            </ul>
+
+            <!-- Add New Brand Button -->
+            <a href="#" class="btn btn-primary ms-3" data-bs-toggle="modal" data-bs-target="#LeadAddModal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle me-2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="16"></line>
+                    <line x1="8" y1="12" x2="16" y2="12"></line>
+                </svg>
+                Add New Lead
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row mb-3"></div>
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+
+                <div class="table-responsive">
+                    <div id="dataTableExample_wrapper" class="dt-container dt-bootstrap5 dt-empty-footer">
+
+
+                        <table id="tblLeads" class="table dataTable" aria-describedby="dataTableExample_info">
+
+                            <thead>
+                                <tr role="row">
+                                    <th data-dt-column="0" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc dt-ordering-asc" aria-sort="ascending" aria-label="Name: Activate to invert sorting" tabindex="0"><span class="dt-column-title" role="button">Sl No</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="1" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Position: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Lead Code</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="2" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Office: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Customer Details</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="3" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Office: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Address</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="4" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Office: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Reference By</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="5" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Office: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Status</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="6" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Office: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Date</span><span class="dt-column-order"></span></th>
+                                    <th data-dt-column="7" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Office: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Action</span><span class="dt-column-order"></span></th>
+                                    @*                                  <th data-dt-column="8" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Office: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Reference By</span><span class="dt-column-order"></span></th>
+                                        <th data-dt-column="9" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Office: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Next FollowUp Date</span><span class="dt-column-order"></span></th>
+                                        <th data-dt-column="10" rowspan="1" colspan="1" class="dt-type-numeric dt-orderable-asc dt-orderable-desc" aria-label="Age: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Action</span><span class="dt-column-order"></span></th> *@
+
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyLeads">
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="modal fade" id="LeadAddModal" tabindex="-1" aria-labelledby="serviceProviderModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h5 class="modal-title" id="serviceProviderModalLabel">Add New Lead</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <form id="addLeadForm">
+                    <div class="row">
+                        <!-- Customer Name -->
+                        <div class="col-4 mb-3">
+                            <label for="customerName" class="form-label">Customer name</label>
+                            <input type="text" class="form-control" id="customerName" placeholder="Enter name">
+                        </div>
+
+                        <!-- Profession Dropdown -->
+                        <div class="col-4 mb-3">
+                            <label for="profession" class="form-label">Profession</label>
+                            <select class="form-select" id="profession" asp-items="@(new SelectList(ViewBag.ResultProfession,"ProfessionID","ProfessionName"))" asp-for="ProfessionID">
+                                <option selected>Select Profession</option>
+                                @* <option value="Teacher">Teacher</option>
+                                    <option value="Engineer">Engineer</option>
+                                    <option value="Doctor">Doctor</option>
+                                    <option value="Other">Other</option> *@
+                            </select>
+                        </div>
+
+                        <!-- Mobile No. -->
+                        <div class="col-4 mb-3">
+                            <label for="mobileNo" class="form-label">Mobile no.</label>
+                            <input type="tel" class="form-control" id="mobileNo" placeholder="Enter mobile number">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- WhatsApp No. -->
+                        <div class="col-4 mb-3">
+                            <label for="whatsappNo" class="form-label">WhatsApp no.</label>
+                            <input type="tel" class="form-control" id="whatsappNo" placeholder="Enter WhatsApp number">
+                        </div>
+
+                        <!-- Reference By Dropdown -->
+                        <div class="col-4 mb-3">
+                            <label for="referenceBy" class="form-label">Reference by</label>
+                            <select class="form-select" id="referenceBy">
+                                <option selected>Select Reference</option>
+                                <option value="Connector">Connector</option>
+                                <option value="Staff">Staff</option>
+                                <option value="Client">Client</option>
+                            </select>
+                        </div>
+
+                        <!-- LG Code -->
+                        <div class="col-4 mb-3">
+                            <label for="lgCode" class="form-label">LG code</label>
+                            <input type="text" class="form-control" id="lgCode" placeholder="Enter LG code">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- District Dropdown (Odisha Districts) -->
+                        <div class="col-4 mb-3">
+                            <label for="district" class="form-label">District</label>
+
+                            <select class="form-select" id="district" asp-items="@(new SelectList(ViewBag.ResultDistrict,"DistrictID","DistrictName"))" asp-for="DistrictID">
+                                <option selected>Select District</option>
+                            </select>
+                        </div>
+
+                        <!-- Area -->
+                        <div class="col-4 mb-3">
+                            <label for="area" class="form-label">Area</label>
+                            <input type="text" class="form-control" id="area" placeholder="Enter area">
+                        </div>
+
+                        <!-- Product Type Dropdown -->
+                        <div class="col-4 mb-3">
+                            <label for="productType" class="form-label">Product Type</label>
+                            <select class="form-select" id="productType" asp-items="@(new SelectList(ViewBag.ResultProductCategory,"CategoryID","CategoryName"))" asp-for="CategoryID">
+                                <option selected>Select Product Type</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Product Sub Type Dropdown (Loan / Insurance) -->
+                        <div class="col-4 mb-3" id="productSubTypeContainer">
+                            <label for="productSubType" class="form-label">Product Sub Type</label>
+                            <select class="form-select" id="productSubTypeNew">
+                                <!-- Options will be dynamically populated based on Product Type selection -->
+                            </select>
+                        </div>
+
+                        <!-- Loan Amount -->
+                        <div class="col-4 mb-3">
+                            <label for="loanAmount" class="form-label">Amount (Rs.)</label>
+                            <input type="number" class="form-control" id="loanAmount" placeholder="Enter loan amount">
+                        </div>
+
+                        <!-- Follow Date -->
+                        <div class="col-4 mb-3">
+                            <label for="followDate" class="form-label">Follow date</label>
+                            @*   <input type="date" class="form-control" > *@
+
+                            <div class="input-group flatpickr" id="flatpickr-date">
+                                <input id="followDate" type="text" class="form-control flatpickr-input active" placeholder="Select date" data-input="" readonly="readonly">
+                                <span class="input-group-text input-group-addon" data-toggle=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Remarks -->
+                        <div class="col-12 mb-3">
+                            <label for="remarks" class="form-label">Remarks</label>
+                            <textarea class="form-control" id="remarks" rows="3" placeholder="Enter remarks"></textarea>
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <input id="hdnLeadID" value="0" type="hidden" />
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button id="btnSubmit" type="button" class="btn btn-primary">Save Leads</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="leadConversionModal" tabindex="-1" aria-labelledby="leadConversionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="leadConversionModalLabel">Lead Conversion to Service Provider</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="appliedForm">
+                    <div class="row">
+                        <!-- Product Type Dropdown -->
+                        <div class="col-4 mb-3">
+                            <label for="serviceProvider" class="form-label">Service Provider</label>
+                            <select class="form-select" id="serviceProvider">
+                                <option selected>--Select Service Provider--</option>
+                                @*<option value="1">Loan Provider</option>
+                                    <option value="2">Insurance Provider</option>*@
+                            </select>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <label for="applyDate" class="form-label">Applied Date</label>
+
+                            @*   <input type="date" class="form-control" > *@
+
+                            <div class="input-group flatpickr" id="flatpickr-date">
+                                <input id="appliedDate" type="text" class="form-control flatpickr-input active" placeholder="Select date" data-input="" readonly="readonly">
+                                <span class="input-group-text input-group-addon" data-toggle=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></span>
+                            </div>
+                        </div>
+                        <!-- Amount (for Loan/Insurance) -->
+                        <div class="col-4 mb-3" id="amountField">
+                            <label for="amount" class="form-label">Applied Amount (Rs.)</label>
+                            <input type="number" class="form-control" id="Appliedamount" placeholder="Enter Amount">
+
+                        </div>
+                    </div>
+                    @*  <div class="row">
+                            <!-- Product Type Dropdown -->
+                            <div class="col-4 mb-3">
+                                <label for="status" class="form-label">Status</label>
+                                    <select class="form-select" id="ddlStatus">
+                                        <option value="0" selected>Select Status</option>
+                                        <option value="Applied">Applied</option>
+                                        <option value="Approved">Approved</option>
+                                        <option value="Rejected">Rejected</option>
+                                    </select>
+
+                            </div>
+                            <div class="col-4 mb-3">
+                                <label for="amount" class="form-label">Approved Amount (Rs.)</label>
+                                <input type="number" class="form-control" id="Approvedamount" placeholder="Enter Amount">
+                            </div>
+                            <!-- Amount (for Loan/Insurance) -->
+                            <div class="col-4 mb-3" id="amountFielsssd">
+                                <label for="ApprovedDate" class="form-label">Approved Date</label>
+
+
+
+                                <div class="input-group flatpickr" id="flatpickr-date">
+                                    <input id="ApprovedDate" type="text" class="form-control flatpickr-input active" placeholder="Select date" data-input="" readonly="readonly">
+                                    <span class="input-group-text input-group-addon" data-toggle=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></span>
+                                </div>
+                            </div>
+                        </div> *@
+                    <div class="row">
+                        @*   <div class="col-4 mb-3">
+                                <label for="noInstallment" class="form-label">No Of Installment</label>
+                                <input type="number" class="form-control" id="noInstallment" placeholder="Enter Installment">
+
+
+                            </div> *@
+                        <!-- Remarks -->
+                        <div class="col-12 mb-3">
+                            <label for="remarks" class="form-label">Remarks</label>
+                            <textarea class="form-control" id="appliedremarks" rows="3" placeholder="Enter any remarks"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="text-center mt-1">
+                        <input type="hidden" class="form-control" value="0" id="appliedLeadID">
+                        <button type="button" id="btnSaveApplied" class="btn btn-primary">Add More Provider</button>
+                        <button type="button" id="btnSaveAppliedStatus" class="btn btn-success">Final Submit </button>
+                    </div>
+
+                    <div class="mt-1" style="height:200px;overflow:auto;">
+                        <h5>Applied Details</h5>
+                        <table class="table table-bordered" id="AppliedHistoryTable">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Provider Name</th>
+                                    <th>Applied Date</th>
+                                    <th>Applied Amount</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="AppliedDetailsTableBody">
+                                <!-- Follow-up History will be dynamically inserted here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="followUpModal" tabindex="-1" aria-labelledby="followUpModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="followUpModalLabel">Follow-up Form</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Follow-up Form -->
+                <form id="followUpForm">
+                    <div class="mt-1" style="height:200px;overflow:auto;">
+                        @*  <h5>Follow-up History</h5> *@
+                        <table class="table table-bordered" id="followUpHistoryTable">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Customer Name</th>
+                                    <th>Follow-up Date</th>
+                                    <th>Follow-up By</th>
+                                    <th>Follow-up Notes</th>
+                                </tr>
+                            </thead>
+                            <tbody id="followUpHistoryBody">
+                                <!-- Follow-up History will be dynamically inserted here -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <!-- Customer Name -->
+                        <div class="col-6 mb-3">
+                            <label for="customerName" class="form-label">Customer Name</label>
+                            <input type="text" class="form-control" id="fcustomerName" placeholder="Enter name" required>
+                        </div>
+
+                        <!-- Follow-up Date -->
+                        <div class="col-6 mb-3">
+                            <label for="nfollowUpDate" class="form-label">Next Follow-up Date</label>
+                            <div class="input-group flatpickr " id="flatpickr-date">
+
+                                <input id="nxtfollowUpDate" type="text" class="form-control flatpickr-input active" placeholder="Select Next Follow-up Date<" data-input="" readonly="readonly">
+                                <span class="input-group-text input-group-addon" data-toggle=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></span>
+                            </div>
+                        </div>
+                        <!-- Follow-up Notes -->
+                        <div class="col-12 mb-3">
+                            <label for="followUpNotes" class="form-label">Follow-up Notes</label>
+                            <textarea class="form-control" id="followUpNotes" rows="3" placeholder="Enter follow-up notes" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-3">
+                        <input type="hidden" class="form-control" id="fLeadId">
+                        <button type="submit" id="btnSaveFallowUp" class="btn btn-primary">Submit Follow-up</button>
+                    </div>
+                </form>
+
+                <!-- Follow-up History Grid -->
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- DataTables CSS -->
+
+<script src="~/lmsData/jquery/jquery.min.js"></script>
+
+
+@* <script>
+        flatpickr("#followDate", {
+            dateFormat: "d-M-Y",  // Format as 12-Nov-2024
+            onChange: function (selectedDates, dateStr, instance) {
+                console.log("Selected Date: ", dateStr); // e.g., '12-Nov-2024'
+                // You can perform other actions here, like updating a hidden field or submitting a form.
+            }
+        });
+    </script>
+*@
+<script>
+
+    function SelectLead(custName,leadid)
+    {
+       // alert(custName + leadid);
+        $("#fLeadId").val(leadid);
+        $("#fcustomerName").val(custName);
+        GetFollowUp(custName,leadid);
+    }
+
+    function SelectLeadForApllied( leadid) {
+        //alert(  leadid);
+        $("#appliedLeadID").val(leadid);
+        ServiceProviderByLeadId(leadid);
+        GetApplied(leadid);
+
+    }
+
+    $(document).ready(function () {
+        Get_AllLeads();
+
+        $('#productType').change(function () {
+            onProductCategoryChange($(this).val());
+        });
+
+        // flatpickr("#followDate", {
+        //     dateFormat: "d-M-Y",  // Format as 12-Nov-2024
+        // });
+    });
+
+    function onProductCategoryChange(id) {
+        $('#productSubTypeNew').empty();
+        $('#productSubTypeNew').append('<option>-Select-</option>');
+
+        if (id) {
+            $.ajax({
+                url: '@Url.Action("ViewProductSubCategory", "Lone")',
+                type: 'GET',
+                data: { categoryId: id },
+                success: function (result) {
+                    //debugger;
+                    var subCategories = result;
+                    if (subCategories.length > 0) {
+
+                        $.each(subCategories, function (index, subCategory) {
+                            $('#productSubTypeNew').append('<option value="' + subCategory.subCategoryID + '">' + subCategory.subCategoryName + '</option>');
+                        });
+                    } else {
+                        $('#productSubTypeNew').append('<option>No subcategories found</option>');
+                    }
+                },
+                error: function (xhr, status, error) {
+                    //console.error("An error occurred: " + error);
+                }
+            });
+        }
+    }
+
+    function ServiceProviderByLeadId(Id) {
+    $('#serviceProvider').empty();
+
+    // Check if the id is valid (non-null, non-empty).
+    if (Id) {
+        $.ajax({
+            url: '@Url.Action("ViewServiceProviderByLeadId", "Lone")',  // URL for the AJAX request
+            type: 'GET',
+            data: { LeadID: Id },  // Send the Lead ID as a query parameter
+            success: function (result) {
+                var allProviders = JSON.parse(result);  // Get the list of providers from the result
+
+                if (allProviders.length > 0) {
+                    $.each(allProviders, function (index, provider) {
+                        $('#serviceProvider').append('<option value="' + provider.Id + '">' + provider.ProviderName + '</option>');
+                    });
+                }
+                else {
+                    $('#serviceProvider').append('<option>No Provider Found</option>');
+                    alert('Please Configure Commission Config.');
+                }
+                //else
+                //{
+                //    alert('Please Configure Commission Config.');
+                //}
+            },
+            error: function (xhr, status, error) {
+                console.error("An error occurred: " + error);
+            }
+        })
+    }
+    else
+    {
+        alert('Please Configure Commission Config.');
+    }
+}
+
+
+    function Get_AllLeads() {
+        $("#hdnLeadID").val("0");
+        $.ajax({
+            type: 'GET',
+            dataType: 'Json',
+            contentType: 'application/json; charset=utf-8',
+            url: "@Url.Action("GetAllLeads", "Lone")",
+
+            success: function (result) {
+                var data1 = JSON.parse(result);
+                // alert(data1);
+                if (data1.length > 0) {
+                    $('#tbodyLeads').empty();  // Clear the table body data.NextFollowupDate
+                    $.each(data1, function (i, data) {
+                        // alert(data.LeadID);
+                        var nextFollowupDate = new Date(data.NextFollowupDate);
+                        var formattedDate = nextFollowupDate.toLocaleDateString('en-US');
+                        var trows = "<tr>";
+                        trows += "<td>" + (i + 1) + "</td>";  // Sl No (1-based index)
+                        trows += "<td>" + data.LeadCode + "</td>";
+                        //trows += "<td><img src='/uploads/logos/" + data.Name + "' alt='Logo' class='img-fluid' style='max-width: 100px;'></td>";  // Logo
+                        trows += "<td>" + data.Name + "</br> Prof-" + data.ProfessionName + "</br> Mobile No-" + data.Mobile + "</br> Whatsup No-" + data.Whatsup + "</br> Email-" + data.Email + "</td>";  // Provider Name
+                        trows += "<td> State-" + data.StateName + "</br> District-" + data.DistrictName + "</br> City-" + data.City  + "</td>";
+                        // trows += "<td>" + data.Mobile + "</td>";  // Provider Name
+                        // trows += "<td>" + data.Whatsup + "</td>";
+                        // trows += "<td>" + data.Email + "</td>";
+                        // trows += "<td>" + data.StateName + "</td>";LGLC_Code
+                        trows += "<td> Ref Type-" + data.ReferenceBy + "</br> LG Code-" + data.LGLC_Code + "</td>";
+
+                        trows += "<td>" + data.StatusName + "</td>";
+                        trows += "<td>" + formattedDate + "</td>";
+                        //trows += "<td><button class='btn btn-primary' onclick='Edit(" + data.LeadID + ")'>Edit</button> <button class='btn btn-danger' onclick='Delete_ServiceProviderMaster(" + data.LeadID + ")'>Delete</button></td>";  // Action (Edit/Delete)
+
+                        trows += "<td>" +
+                            "<div class='btn-group' role='group'>" +
+                            "<button id='btnGroupDrop1' type='button' class='btn btn-light' data-bs-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>" +
+                            "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-arrow-down-circle'>" +
+                            "<circle cx='12' cy='12' r='10'></circle>" +
+                            "<polyline points='8 12 12 16 16 12'></polyline>" +
+                            "<line x1='12' y1='8' x2='12' y2='16'></line>" +
+                            "</svg>" +
+                            "</button>" +
+                            "<div class='dropdown-menu' aria-labelledby='btnGroupDrop1'>" +
+                            "<a class='dropdown-item btn-light' href='#' data-bs-toggle='modal' data-bs-target='#LeadAddModal' onclick='Edit(" + data.LeadID + ")'>Edit</a>" +
+                            "<a class='dropdown-item btn-light' href='#' data-bs-toggle='modal' data-bs-target='#leadConversionModal' onclick=\"SelectLeadForApllied('" + data.LeadID + "')\">Lead Conversion</a>" +
+                            "<a class='dropdown-item btn-light' href='#' data-bs-toggle='modal' data-bs-target='#followUpModal' onclick=\"SelectLead('" + data.Name + "', '" + data.LeadID + "')\">Follow Up</a>"+
+
+                           // "<a class='dropdown-item btn-light' href='#' data-bs-toggle='modal' data-bs-target='#followUpModal' onclick=SelectLead('" + data.Name +"','" + data.LeadID + "')>Follow Up</a>" +
+                            "</div>" +
+                            "</div>" +
+                            "</td>";
+
+
+                       // SelectLeadForApllied
+
+                        trows += "</tr>";
+                        $('#tbodyLeads').append(trows);
+                    });
+                    $('#tblLeads').DataTable();  // Initialize DataTable
+                }
+            },
+            error: function (Message) {
+                alert(Message);
+            }
+        });
+    }
+    // Save the service provider
+    $("#btnSubmit").click(function () {
+        var formData = new FormData();
+
+        // Add the text data
+        formData.append("LeadID", $("#hdnLeadID").val());
+        formData.append("Name", $("#customerName").val());
+        formData.append("Mobile", $("#mobileNo").val());
+        formData.append("Whatsup", $("#whatsappNo").val());
+        formData.append("Email", "");
+        formData.append("StateID", 1);
+        formData.append("StatusID", 1);
+        formData.append("DistrictId", $("#district").val());
+        formData.append("City", $("#area").val());
+        formData.append("ReferenceBy", $("#referenceBy").val());
+        formData.append("LGLC_Code", $("#lgCode").val());
+        formData.append("Remarks", $("#remarks").val());
+        formData.append("CreatedBy", 1);
+        formData.append("NextFollowupDate", $("#followDate").val());
+        formData.append("RequestAmount", $("#loanAmount").val());
+        formData.append("CategoryID", $("#productType").val());
+        formData.append("SubCategoryID", $("#productSubTypeNew").val());
+        formData.append("ProfessionID", $("#profession").val());
+        // productType
+        // productSubTypeContainer
+
+        var urlString = "";
+        if ($("#hdnLeadID").val() == "0") {
+            urlString = "/Lone/SaveLoanLeads";
+        }
+        else {
+            urlString = "/Lone/UpdateLoanLead";
+        }
+
+        // Perform the AJAX request to save the service provider
+        $.ajax({
+            url: urlString,// "/Lone/SaveLoanLeads",  // URL of your controller action
+            type: "POST",
+            data: formData,
+            processData: false,  // Do not process the data
+            contentType: false,  // Do not set content type; jQuery will set it correctly for FormData
+            success: function (result) {
+
+                // Optionally, reload the table or reset the form here
+                $("#addLeadForm")[0].reset();
+                $("#LeadAddModal").modal("hide");
+                Get_AllLeads();
+                alert(result.responseMessage);  // Show success message
+                $("#hdnLeadID").val("0");
+            },
+            error: function (errormessage) {
+                alert("Error: " + errormessage.responseText);
+                $("#hdnLeadID").val("0");
+            }
+        });
+    });
+
+    $("#btnSaveFallowUp").click(function () {
+        var formData = new FormData();
+
+        // Add the text data
+        formData.append("LeadID", $("#fLeadId").val());
+        formData.append("Remarks", $("#followUpNotes").val());
+        formData.append("CreatedBy",0);
+        formData.append("NextFollowUpDate", $("#nxtfollowUpDate").val());
+
+        // productType
+        // productSubTypeContainer
+
+        var urlString = "";
+        if ($("#fLeadId").val() == "0") {
+            alert('Request Invalid !');
+        }
+        else {
+            urlString = "/Lone/SaveFollowupHistory";
+        }
+
+        // Perform the AJAX request to save the service provider
+        $.ajax({
+            url: urlString,// "/Lone/SaveLoanLeads",  // URL of your controller action
+            type: "POST",
+            data: formData,
+            processData: false,  // Do not process the data
+            contentType: false,  // Do not set content type; jQuery will set it correctly for FormData
+            success: function (result) {
+                //debugger;
+                // Optionally, reload the table or reset the form here
+                $("#followUpForm")[0].reset();
+                $("#followUpModal").modal("hide");
+
+                alert(result.responseMessage);  // Show success message
+                $("#fLeadId").val("0");
+            },
+            error: function (errormessage) {
+                alert("Error: " + errormessage.responseText);
+                $("#fLeadId").val("0");
+            }
+        });
+    });
+
+    $("#btnSaveApplied").click(function () {
+        var formData = new FormData();
+
+        // Add the text data
+        formData.append("LeadID", $("#appliedLeadID").val());
+        formData.append("ServiceProviderID", $("#serviceProvider").val());
+        formData.append("AppliedDate", $("#appliedDate").val());
+        formData.append("AppliedAmount", $("#Appliedamount").val());
+        formData.append("Status", 'Applied');
+        formData.append("ApprovedAmount", 0);
+       // formData.append("ApprovedDate", $("#ApprovedDate").val());
+       // formData.append("NoOfInstallment", $("#noInstallment").val());
+        formData.append("Remarks", $("#appliedremarks").val());
+        formData.append("CreatedBy", 0);
+
+
+        // productType
+        // productSubTypeContainer
+
+        var urlString = "";
+        if ($("#appliedLeadID").val() == "0") {
+            alert('Request Invalid !');
+        }
+        else {
+            urlString = "/Lone/SaveApplied";
+        }
+
+        // Perform the AJAX request to save the service provider
+        $.ajax({
+            url: urlString,// "/Lone/SaveLoanLeads",  // URL of your controller action
+            type: "POST",
+            data: formData,
+            processData: false,  // Do not process the data
+            contentType: false,  // Do not set content type; jQuery will set it correctly for FormData
+            success: function (result) {
+                //debugger;
+                // Optionally, reload the table or reset the form here
+                $("#appliedForm")[0].reset();
+                $("#leadConversionModal").modal("hide");
+
+                alert(result.responseMessage);  // Show success message
+                $("#appliedLeadID").val("0");
+            },
+            error: function (errormessage) {
+                alert("Error: " + errormessage.responseText);
+                $("#appliedLeadID").val("0");
+            }
+        });
+    });
+
+    $("#btnSaveAppliedStatus").click(function () {
+        // productType
+        // productSubTypeContainer
+
+        var urlString = "";
+        if ($("#appliedLeadID").val() == "0") {
+            alert('Request Invalid !');
+        }
+        else {
+            urlString = "/Lone/LeadConvertStatusUpdate";
+        }
+
+        // Perform the AJAX request to save the service provider
+        $.ajax({
+            url: urlString,// "/Lone/SaveLoanLeads",  // URL of your controller action
+            type: "POST",
+            data: { LeadID: lid },
+            processData: false,  // Do not process the data
+            contentType: false,  // Do not set content type; jQuery will set it correctly for FormData
+            success: function (result) {
+                //debugger;
+                // Optionally, reload the table or reset the form here
+                $("#appliedForm")[0].reset();
+                $("#leadConversionModal").modal("hide");
+
+                alert(result.responseMessage);  // Show success message
+                $("#appliedLeadID").val("0");
+            },
+            error: function (errormessage) {
+                alert("Error: " + errormessage.responseText);
+                $("#appliedLeadID").val("0");
+            }
+        });
+    });
+
+    function GetFollowUp(cusname,lid) {
+        $.ajax({
+            url: '@Url.Action("ViewFollowupHistory", "Lone")',
+            type: 'GET',
+            data: { LeadID: lid },
+            success: function (result) {
+                //debugger;
+                var data1 = JSON.parse(result);
+                // alert(data1);
+                if (data1.length > 0) {
+                    $('#followUpHistoryBody').empty();  // Clear the table body data.NextFollowupDate
+                    $.each(data1, function (i, data) {
+                        var trows = "<tr>";
+                        trows += "<td>" + (i + 1) + "</td>";  // Sl No (1-based index)
+                        //trows += "<td><img src='/uploads/logos/" + data.Name + "' alt='Logo' class='img-fluid' style='max-width: 100px;'></td>";  // Logo
+                        trows += "<td>" + cusname + "</td>";  // Provider Name
+
+                        trows += "<td>" + data.NextFallowUpDate + "</td>";  // Provider Name
+                        trows += "<td>" + data.FallowUpBy + "</td>";  // Provider Name
+
+                        trows += "<td>" + data.Remarks + "</td>";
+                        trows += "</tr>";
+                        $('#followUpHistoryBody').append(trows);
+                    });
+                  //  $('#followUpHistoryTable').DataTable();  // Initialize DataTable
+                }
+
+            },
+            error: function (xhr, status, error) {
+                //console.error("An error occurred: " + error);
+            }
+        });
+    }
+
+    function GetApplied(lid) {
+        $.ajax({
+            url: '@Url.Action("ViewApliedDetails", "Lone")',
+            type: 'GET',
+            data: { LeadID: lid },
+            success: function (result) {
+                //debugger;
+                var data1 = JSON.parse(result);
+                // alert(data1);
+                if (data1.length > 0) {
+                    $('#AppliedDetailsTableBody').empty();  // Clear the table body data.NextFollowupDate
+                    $.each(data1, function (i, data) {
+                        var trows = "<tr>";
+                        trows += "<td>" + (i + 1) + "</td>";  // Sl No (1-based index)
+                        //trows += "<td><img src='/uploads/logos/" + data.Name + "' alt='Logo' class='img-fluid' style='max-width: 100px;'></td>";  // Logo
+                        trows += "<td>" + data.ServiceProviderName + "</td>";  // Provider Name
+
+                        trows += "<td>" + data.AppliedDate + "</td>";  // Provider Name
+                        trows += "<td>" + data.AppliedAmount + "</td>";  // Provider Name
+
+                        trows += "<td>" + data.Status + "</td>";
+                        trows += "</tr>";
+                        $('#AppliedDetailsTableBody').append(trows);
+                    });
+                    //  $('#followUpHistoryTable').DataTable();  // Initialize DataTable
+                }
+
+            },
+            error: function (xhr, status, error) {
+                //console.error("An error occurred: " + error);
+            }
+        });
+    }
+
+    function Edit(LeadId) {
+        //alert(LeadId);
+        $("#hdnLeadID").val(LeadId);
+        $.ajax({
+            url: "/Lone/ViewLoanLeadsById?LeadId=" + LeadId,
+            type: "GET", // Fixed typo: `typr` to `type`
+            contentType: "application/json;charset=UTF-8",
+            dataType: "json",
+            success: function (result) {
+                // alert(formattedDate);
+                // var nextFollowupDate = new Date(result.NextFollowupDate);
+                // var formattedDate = nextFollowupDate.toLocaleDateString('en-US');
+
+
+                $("#customerName").val(result.Name);
+                $("#mobileNo").val(result.Mobile);
+                $("#whatsappNo").val(result.Whatsup);
+                $("#lgCode").val(result.LGLC_Code);
+                $("#area").val(result.City);
+                $("#loanAmount").val(result.RequestAmount);
+                // $("#followDate").val(formattedDate);
+                //alert("Pro-"+result.ProfessionID);
+                $("#profession").val(result.ProfessionID);
+                $("#referenceBy").val(result.ReferenceBy);
+                $("#district").val(result.DistrictID);
+                $("#productType").val(result.CategoryID);
+                onProductCategoryChange(result.CategoryID);
+
+                setTimeout(function () {
+                    $("#productSubTypeNew").val(result.SubCategoryID);
+                }, 100);
+                $("#remarks").val(result.Remarks);
+
+                $("#followDate").val(result.NextFollowupDate.replace(' ', '-').replace(' ', '-'));
+                //LeadID	LeadCode	Name	Mobile	Whatsup	Email	StateID	StateName	DistrictId	DistrictName
+                // City	ReferenceBy	LGLC_Code	StatusID	Remarks	NextFollowupDate	CreateOn	CreatedBy	UpdatedOn	UpdatedBy	DeletedOn	DeletedBy	IsDeleted	IsActive
+
+                // $("#ddlCategory").val(result.CategoryId);
+                // $("#hdnProductId").val(result.ProductId);
+                // $('#ddlCategory').change();
+
+                // setTimeout(function () {
+                //     $("#ddlSubCategory").val(result.SubCategoryId);
+                // }, 100);
+            },
+            error: function (errormessage) {
+                alert(errormessage.responseText);
+            }
+        });
+    }
+
+    // function Followup(int LeadId) {
+    //     alert(LeadId);
+    //     //#followUpModal
+    //     //$("#hdnLeadID").val(LeadId);
+    //     $.ajax({
+    //         url: "/Lone/ViewLoanLeadsById?LeadId=" + LeadId,
+    //         type: "GET", // Fixed typo: `typr` to `type`
+    //         contentType: "application/json;charset=UTF-8",
+    //         dataType: "json",
+    //         success: function (result) {
+    //             $("#customerName").val(result.Name);
+    //         },
+    //         error: function (errormessage) {
+    //             alert(errormessage.responseText);
+    //         }
+    //     });
+
+
+
+
+</script>

@@ -1,0 +1,324 @@
+﻿
+@{
+    ViewBag.Title = "View Enquiry";
+    Layout = "~/Views/Shared/_LayoutLMS.cshtml";
+}
+<div class="page-header">
+    <div class="d-flex justify-content-between align-items-center">
+        <!-- Page Title -->
+        <!-- Action Buttons and Icons -->
+        <div class="d-flex align-items-center">
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Pdf">
+                        <img src="/lmsData/assets/img/icons/pdf.svg" alt="Pdf">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Excel">
+                        <img src="/lmsData/assets/img/icons/excel.svg" alt="Excel">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Print">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-printer feather-rotate-ccw">
+                            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                            <rect x="6" y="14" width="12" height="8"></rect>
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="ttt" data-bs-toggle="tooltip" data-bs-placement="top" title="Refresh">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rotate-ccw">
+                            <polyline points="1 4 1 10 7 10"></polyline>
+                            <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
+                        </svg>
+                    </a>
+                </li>
+                @*   <li class="list-inline-item">
+                    <a href="#" class="ttt"  data-bs-toggle="tooltip" data-bs-placement="top" title="Collapse" id="collapse-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                    </svg>
+                    </a>
+                    </li> *@
+            </ul>
+
+            <!-- Add New Brand Button -->
+            <!--<a href="#" class="btn btn-primary ms-3" data-bs-toggle="modal" data-bs-target="#serviceSubCategoryModal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle me-2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="16"></line>
+                    <line x1="8" y1="12" x2="16" y2="12"></line>
+                </svg>
+                Add Service Sub Category
+            </a>-->
+        </div>
+    </div>
+</div>
+<div class="row mb-3"></div>
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Mobile Number</th>
+                            <th>Email</th>
+                            <th>City</th>
+                            <th>Item</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Static Data Rows -->
+                        <tr>
+                            <td>1</td>
+                            <td>John Doe</td>
+                            <td>1234567890</td>
+                            <td>john@example.com</td>
+                            <td>New York</td>
+                            <td>Item 1</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('John Doe', '1234567890', 'john@example.com', 'New York', 'Item 1')">Update Details</button></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sarah Connor</td>
+                            <td>2345678901</td>
+                            <td>sarah@example.com</td>
+                            <td>San Francisco</td>
+                            <td>Item 2</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('Sarah Connor', '2345678901', 'sarah@example.com', 'San Francisco', 'Item 2')">Update Details</button></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Michael Johnson</td>
+                            <td>3456789012</td>
+                            <td>michael@example.com</td>
+                            <td>Chicago</td>
+                            <td>Item 3</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('Michael Johnson', '3456789012', 'michael@example.com', 'Chicago', 'Item 3')">Update Details</button></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Emily Davis</td>
+                            <td>4567890123</td>
+                            <td>emily@example.com</td>
+                            <td>Houston</td>
+                            <td>Item 4</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('Emily Davis', '4567890123', 'emily@example.com', 'Houston', 'Item 4')">Update Details</button></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Jane Smith</td>
+                            <td>0987654321</td>
+                            <td>jane@example.com</td>
+                            <td>Los Angeles</td>
+                            <td>Item 5</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('Jane Smith', '0987654321', 'jane@example.com', 'Los Angeles', 'Item 5')">Update Details</button></td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Robert Brown</td>
+                            <td>5678901234</td>
+                            <td>robert@example.com</td>
+                            <td>Miami</td>
+                            <td>Item 6</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('Robert Brown', '5678901234', 'robert@example.com', 'Miami', 'Item 6')">Update Details</button></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Alice Green</td>
+                            <td>6789012345</td>
+                            <td>alice@example.com</td>
+                            <td>Seattle</td>
+                            <td>Item 7</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('Alice Green', '6789012345', 'alice@example.com', 'Seattle', 'Item 7')">Update Details</button></td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>David Wilson</td>
+                            <td>7890123456</td>
+                            <td>david@example.com</td>
+                            <td>Boston</td>
+                            <td>Item 8</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('David Wilson', '7890123456', 'david@example.com', 'Boston', 'Item 8')">Update Details</button></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Olivia Taylor</td>
+                            <td>8901234567</td>
+                            <td>olivia@example.com</td>
+                            <td>Dallas</td>
+                            <td>Item 9</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('Olivia Taylor', '8901234567', 'olivia@example.com', 'Dallas', 'Item 9')">Update Details</button></td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>William Martinez</td>
+                            <td>9012345678</td>
+                            <td>william@example.com</td>
+                            <td>Austin</td>
+                            <td>Item 10</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('William Martinez', '9012345678', 'william@example.com', 'Austin', 'Item 10')">Update Details</button></td>
+                        </tr>
+
+                        <tr>
+                            <td>11</td>
+                            <td>John Doe</td>
+                            <td>1234567890</td>
+                            <td>john@example.com</td>
+                            <td>New York</td>
+                            <td>Item 1</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('John Doe', '1234567890', 'john@example.com', 'New York', 'Item 1')">Update Details</button></td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Jane Smith</td>
+                            <td>0987654321</td>
+                            <td>jane@example.com</td>
+                            <td>Los Angeles</td>
+                            <td>Item 2</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('Jane Smith', '0987654321', 'jane@example.com', 'Los Angeles', 'Item 2')">Update Details </button></td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Jane Smith</td>
+                            <td>0987654321</td>
+                            <td>jane@example.com</td>
+                            <td>Los Angeles</td>
+                            <td>Item 2</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('Jane Smith', '0987654321', 'jane@example.com', 'Los Angeles', 'Item 2')">Update Details </button></td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>Jane Smith</td>
+                            <td>0987654321</td>
+                            <td>jane@example.com</td>
+                            <td>Los Angeles</td>
+                            <td>Item 2</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('Jane Smith', '0987654321', 'jane@example.com', 'Los Angeles', 'Item 2')">Update Details </button></td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>Jane Smith</td>
+                            <td>0987654321</td>
+                            <td>jane@example.com</td>
+                            <td>Los Angeles</td>
+                            <td>Item 2</td>
+                            <td><button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="openModal('Jane Smith', '0987654321', 'jane@example.com', 'Los Angeles', 'Item 2')">Update Details </button></td>
+                        </tr>
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+                @*<div class="table-responsive">
+                        <div id="dataTableExample_wrapper" class="dt-container dt-bootstrap5 dt-empty-footer">
+
+
+                            <table id="tblSubcategory" class="table dataTable" aria-describedby="dataTableExample_info">
+
+                                <thead>
+                                    <tr role="row">
+                                        <th data-dt-column="0" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc dt-ordering-asc" aria-sort="ascending" aria-label="Name: Activate to invert sorting" tabindex="0"><span class="dt-column-title" role="button">Sl No</span><span class="dt-column-order"></span></th>
+                                        <th data-dt-column="1" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Position: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Category Name</span><span class="dt-column-order"></span></th>
+                                        <th data-dt-column="2" rowspan="1" colspan="1" class="dt-orderable-asc dt-orderable-desc" aria-label="Office: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">SubCategory Name</span><span class="dt-column-order"></span></th>
+                                        <th data-dt-column="10" rowspan="1" colspan="1" class="dt-type-numeric dt-orderable-asc dt-orderable-desc" aria-label="Age: Activate to sort" tabindex="0"><span class="dt-column-title" role="button">Action</span><span class="dt-column-order"></span></th>
+
+                                    </tr>
+                                </thead>
+                                <tbody id="idbodySubCategory">
+                                </tbody>
+                                <tfoot></tfoot>
+                            </table>
+                        </div>
+                    </div>*@
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Enquiry Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Name:</strong> <span id="modalName"></span></p>
+                <p><strong>Mobile Number:</strong> <span id="modalMobile"></span></p>
+                <p><strong>Email:</strong> <span id="modalEmail"></span></p>
+                <p><strong>City:</strong> <span id="modalCity"></span></p>
+                <p><strong>Item:</strong> <span id="modalItem"></span></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and Popper.js (Required for Modal) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // JavaScript function to populate the modal with selected row data
+    function openModal(name, mobile, email, city, item) {
+        document.getElementById('modalName').innerText = name;
+        document.getElementById('modalMobile').innerText = mobile;
+        document.getElementById('modalEmail').innerText = email;
+        document.getElementById('modalCity').innerText = city;
+        document.getElementById('modalItem').innerText = item;
+    }
+</script>
+
+
+
+
+
+<!--<div class="modal fade" id="serviceSubCategoryModal" tabindex="-1" aria-labelledby="serviceProviderModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">-->
+            <!-- Modal Header -->
+            <!--<div class="modal-header">
+                <h5 class="modal-title" id="serviceProviderModalLabel">Add Service Category</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>-->
+            <!-- Modal Body -->
+            <!--<div class="modal-body">
+                <form>-->
+                    <!-- Service Provider Name -->
+                    <!--<div class="mb-3">
+                        <label for="serviceProviderName" class="form-label">Service Category Name</label>
+                        <option value="0" selected>--Select Category--</option>
+                        </select>
+
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="serviceProviderName" class="form-label">Service Sub Category Name</label>
+                        <input type="text" class="form-control" id="txtSubCategoryName" placeholder="Enter service category name">
+                    </div>
+
+
+                </form>
+            </div>-->
+            <!-- Modal Footer -->
+            <!--<div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button id="btnSubmit" type="button" class="btn btn-primary">Save Service Sub Category</button>
+                <input type="hidden" id="hdnSubCatId" value="0" />
+            </div>
+        </div>
+    </div>
+</div>-->
+
+<script src="~/lmsData/jquery/jquery.min.js"></script>

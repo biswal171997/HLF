@@ -1,0 +1,119 @@
+
+@{
+ViewData["Title"] = "ViewServiceProviderMaster";
+}
+<div class="row">
+		@Html.AntiForgeryToken()
+			@*Write code here*@
+</div><div>
+    <ul class="nav nav-tabs nav-fill" role="tablist">
+        <a class="nav-item nav-link " asp-controller="MASTERS" asp-action="ServiceProviderMaster">Add</a>
+        <a class="nav-item nav-link active" asp-controller="MASTERS" asp-action=ViewServiceProviderMaster>View</a>
+    </ul>
+</div>
+<br />
+<br />
+<br />
+<div>
+
+		 <br/>
+ <table class="table" id="tbl">
+			<thead>
+				<tr>
+					<th>
+						Serviceprovidername
+					</th>
+					 <th>
+						Logo
+					</th>
+					 
+			<th> Action </th>
+				</tr>
+			</thead>
+			<tbody>
+
+
+			</tbody>
+		</table>
+	</div>
+
+	
+	<script>
+$(document).ready(function(){
+	Get_ServiceProviderMaster();
+	});
+    function encryptData(data) {
+        // Convert the integer data to a string
+        var dataString = String(data);
+
+        // Encrypt the data using CryptoJS
+        var encryptedData = CryptoJS.AES.encrypt(JSON.stringify({ data: dataString }), 'secret_key').toString();
+
+        return encryptedData;
+    }
+	function Get_ServiceProviderMaster() {
+		$.ajax ({
+		 type:'Get',
+		 dataType: 'Json',
+		 contentType: 'application/json; charset=utf-8',
+		 data: { },
+			url: "@Url.Action("Get_ServiceProviderMaster","MASTERS")",
+			success: function (result) {
+				var data1 = JSON.parse(result);
+				if (data1.length > 0) {
+				$('#tbl.tbody').empty();
+					$.each(data1, function (i, data) {
+					
+                    var encryptedID = encryptData(data.Id);var trows ="<tr>";
+					trows = trows +"<td>"+ data.ServiceProviderName +"</td>";
+					trows = trows +"<td>"+ data.Logo +"</td>";
+					trows=trows + "<td>" + "<a class='btn-primary' href='/MASTERS/ServiceProviderMaster?strid="+ encryptedID+"'>Edit</a>&nbsp;<button class='btn-danger' onclick='Delete_ServiceProviderMaster("+ data.Id +")'>Delete</button>" + "</td>";
+					trows = trows + "</tr>";
+					$('#tbl').append(trows);
+					});
+				}
+			},
+		error: function (Message) {
+		alert(Message);
+			}
+		});
+		}
+	
+     function Delete_ServiceProviderMaster(id) {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                  $.ajax({
+                    type: "Delete",
+                    dataType: "json",
+                    url: "@Url.Action("Delete_ServiceProviderMaster","MASTERS")",
+			
+                    data: { "Id": id },
+                      success: function (response) {
+                          Swal.fire(
+                              'Deleted!',
+                              'Data Deleted Successfully!',
+                              'success'
+                        ).then((result) => {
+                            if (result.isConfirmed) {
+                                location.href = "/MASTERS/ViewServiceProviderMaster";
+                            }
+                            else if (result.isDenied) {
+                                Swal.fire('Changes are not saved', '', 'info')
+                            }
+                        })
+                    }
+                });
+
+            }
+            return false;
+        })
+    }	
+</script>
